@@ -1,4 +1,4 @@
-.PHONY: up down reset logs test capture
+.PHONY: up down reset logs test capture sample
 
 up:
 	docker compose up -d
@@ -19,3 +19,8 @@ test:
 
 capture:
 	docker compose --profile tools run --rm grading sh -c "cd backend && npm install --silent && cd ../grading && npm install --silent && node capture_fixtures.js $(FILTER)"
+
+# Lecturer only: rebuild db/seed/sample/ as a subset of db/seed/full/, then run
+# `make capture` to refresh the grading fixtures.
+sample:
+	python3 db/seed/make_sample_from_full.py

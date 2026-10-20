@@ -67,8 +67,9 @@ function resetDb({ skipGeolocation = false } = {}) {
     "product_category_name_translation", "sellers", "products", "customers",
     "geolocation", "orders", "order_items", "order_payments", "order_reviews",
   ];
-  const forceSample = process.env.FORCE_SAMPLE_DATA === "true";
-  const seedDir = !forceSample && fs.existsSync(path.join(ROOT, "db/seed/full")) && fs.readdirSync(path.join(ROOT, "db/seed/full")).length
+  // KEEP IN SYNC with db/init/00-init.sh: sample is the default, full is opt-in.
+  const wantFull = process.env.USE_FULL_DATASET === "true";
+  const seedDir = wantFull && fs.existsSync(path.join(ROOT, "db/seed/full")) && fs.readdirSync(path.join(ROOT, "db/seed/full")).length
     ? path.join(ROOT, "db/seed/full")
     : path.join(ROOT, "db/seed/sample");
   for (const table of loadOrder) {
@@ -231,6 +232,44 @@ async function executeCheckOnce(check, { skipReset = false } = {}) {
   return slots;
 }
 
+// Turns a failed comparison into a short, student-friendly hint instead of
+// assert.deepStrictEqual's raw diff (which can run to hundreds of lines and
+// prints the full expected result). Deliberately says WHERE the result is
+// wrong (row count / columns / ordering / first differing cell and your own
+// value) but never prints the expected values -- the student still has to
+// work out the fix. Returns null when the two match.
+function explainMismatch(actual, expected) {
+  try {
+    assert.deepStrictEqual(actual, expected);
+    return null;
+  } catch (_) { /* fall through to a readable explanation */ }
+
+  if (actual.length !== expected.length) {
+    return `Row count is off: your query returned ${actual.length} rows, expected ${expected.length}. ` +
+      `Check your joins, filters and any LIMIT / FETCH FIRST.`;
+  }
+  const cols = (rows) => (rows[0] ? Object.keys(rows[0]) : []);
+  const ac = cols(actual), ec = cols(expected);
+  if (ac.join(",") !== ec.join(",")) {
+    return `Columns don't match. Expected: ${ec.join(", ")}. Yours: ${ac.join(", ")}. ` +
+      `Check column names, order and aliases.`;
+  }
+  const key = (r) => JSON.stringify(r);
+  const sameSet = [...actual].map(key).sort().join("|") === [...expected].map(key).sort().join("|");
+  if (sameSet) {
+    return `All the right rows, but in the wrong order. Check your ORDER BY (including tie-breakers).`;
+  }
+  for (let i = 0; i < actual.length; i++) {
+    for (const c of ec) {
+      if (JSON.stringify(actual[i][c]) !== JSON.stringify(expected[i][c])) {
+        return `Row ${i + 1} differs in column "${c}" (your value: ${JSON.stringify(actual[i][c])}). ` +
+          `Check rounding, grouping keys, NULL handling and ordering.`;
+      }
+    }
+  }
+  return "Result does not match the expected result.";
+}
+
 async function runChecks(filter) {
   const toRun = filter ? checks.filter((c) => `${c.week}/${c.id}` === filter) : checks;
   if (filter && toRun.length === 0) {
@@ -260,10 +299,13 @@ async function runChecks(filter) {
       needsReset = !!check.action;
       for (const slot of slots) {
         if (slot.countCheck) {
-          assert.strictEqual(slot.actualCount, slot.expectedCount);
+          if (slot.actualCount !== slot.expectedCount) {
+            throw new Error(`Row count is off: your query returned ${slot.actualCount} rows, expected ${slot.expectedCount}.`);
+          }
         } else {
           const expected = loadExpected(slot.expected);
-          assert.deepStrictEqual(normalize(slot.rows), normalize(expected));
+          const hint = explainMismatch(normalize(slot.rows), normalize(expected));
+          if (hint) throw new Error(hint);
         }
       }
       results.push({ label, pass: true });

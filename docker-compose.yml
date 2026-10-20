@@ -6,6 +6,9 @@ services:
       POSTGRES_USER: databasement
       POSTGRES_PASSWORD: databasement
       POSTGRES_DB: databasement
+      # Sample data is the default. Set USE_FULL_DATASET=true in .env (and run
+      # docker compose down -v) to load db/seed/full/ instead.
+      USE_FULL_DATASET: ${USE_FULL_DATASET:-}
     ports:
       - "${DB_PORT:-58432}:5432"
     volumes:
@@ -13,10 +16,16 @@ services:
       - ./db:/db
       - ./db/init:/docker-entrypoint-initdb.d
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U databasement -d databasement"]
+      # Healthy only when the database is reachable over TCP (i.e. init has
+      # finished -- the temporary init server has no TCP listener) AND the seed
+      # data actually loaded. Without the second check, a failed first start
+      # leaves an empty volume that looks "healthy" and every query then fails
+      # with "relation does not exist".
+      test: ["CMD-SHELL", "pg_isready -h 127.0.0.1 -U databasement -d databasement && psql -h 127.0.0.1 -U databasement -d databasement -tAc 'SELECT EXISTS (SELECT 1 FROM orders)' | grep -q t"]
       interval: 3s
-      timeout: 3s
-      retries: 20
+      timeout: 5s
+      retries: 100
+      start_period: 30s
 
   backend:
     build: ./backend

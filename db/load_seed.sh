@@ -1,8 +1,22 @@
 #!/usr/bin/env bash
-# Runs automatically on first container boot (Postgres docker-entrypoint-initdb.d
-# convention). Loads the schema, then loads seed data: the full dataset if
-# scripts/fetch_full_dataset.sh has been run, otherwise the small sample set.
+# Loads the schema, then the seed data (sample by default; the full dataset
+# only when USE_FULL_DATASET=true).
+#
+# NOT run directly by Postgres: db/init/00-init.sql (the only file in the init
+# folder) calls it with `bash`, so it does not depend on the file's executable
+# bit, its #! line, or its line endings (CRLF is stripped first). That made
+# first-start failures on some students' machines ("bad interpreter:
+# Permission denied", "pipefail\r") impossible.
 set -euo pipefail
+
+on_error() {
+  echo "" >&2
+  echo "[init] !!! DATABASE SETUP FAILED (line $1) !!!" >&2
+  echo "[init] The data volume now holds a half-initialised database." >&2
+  echo "[init] Fix: run   docker compose down -v   then   docker compose up -d" >&2
+  echo "[init] (down -v deletes the volume so setup runs again from scratch)" >&2
+}
+trap 'on_error $LINENO' ERR
 
 SCHEMA_DIR="/db"
 SEED_FULL="$SCHEMA_DIR/seed/full"
@@ -11,13 +25,15 @@ SEED_SAMPLE="$SCHEMA_DIR/seed/sample"
 echo "[init] applying schema..."
 psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" -f "$SCHEMA_DIR/schema.sql"
 
-if [ -d "$SEED_FULL" ] && [ -n "$(ls -A "$SEED_FULL" 2>/dev/null)" ]; then
+# Sample data is the DEFAULT: ~700 orders, loads in seconds, and is what the
+# autograder and fixtures use. The real ~100k-order dataset is opt-in:
+# set USE_FULL_DATASET=true in .env AND have db/seed/full/ populated.
+if [ "${USE_FULL_DATASET:-}" = "true" ] && [ -d "$SEED_FULL" ] && [ -n "$(ls -A "$SEED_FULL" 2>/dev/null)" ]; then
   SEED_DIR="$SEED_FULL"
-  echo "[init] loading FULL Olist dataset from $SEED_DIR"
+  echo "[init] USE_FULL_DATASET=true -- loading FULL Olist dataset from $SEED_DIR (this can take a few minutes)"
 else
   SEED_DIR="$SEED_SAMPLE"
-  echo "[init] no full dataset found — loading small sample dataset from $SEED_DIR"
-  echo "[init] run ./scripts/fetch_full_dataset.sh for the real ~100k-order dataset"
+  echo "[init] loading sample dataset from $SEED_DIR"
 fi
 
 # Load order matters: parents before children (FK dependencies).

@@ -3,77 +3,77 @@
     "seller_id": "seller_16",
     "seller_name": "Porto Importados",
     "seller_state": "BA",
-    "total_revenue": "353923.34",
+    "total_revenue": "735.60",
     "state_rank": "1"
   },
   {
     "seller_id": "seller_01",
     "seller_name": "Sul Atacado",
     "seller_state": "MA",
-    "total_revenue": "164795.31",
+    "total_revenue": "378.89",
     "state_rank": "1"
   },
   {
     "seller_id": "seller_30",
     "seller_name": "Horizonte Importados",
     "seller_state": "MG",
-    "total_revenue": "356012.99",
+    "total_revenue": "1424.13",
     "state_rank": "1"
-  },
-  {
-    "seller_id": "seller_25",
-    "seller_name": "Estrela Loja",
-    "seller_state": "MG",
-    "total_revenue": "179423.24",
-    "state_rank": "2"
   },
   {
     "seller_id": "seller_36",
     "seller_name": "Aurora Distribuidora",
     "seller_state": "MG",
-    "total_revenue": "160542.99",
+    "total_revenue": "1351.50",
+    "state_rank": "2"
+  },
+  {
+    "seller_id": "seller_25",
+    "seller_name": "Estrela Loja",
+    "seller_state": "MG",
+    "total_revenue": "440.38",
     "state_rank": "3"
   },
   {
     "seller_id": "seller_03",
     "seller_name": "Horizonte Store",
     "seller_state": "PR",
-    "total_revenue": "200488.65",
-    "state_rank": "1"
-  },
-  {
-    "seller_id": "seller_18",
-    "seller_name": "Aurora Utilidades",
-    "seller_state": "RJ",
-    "total_revenue": "357304.87",
+    "total_revenue": "513.69",
     "state_rank": "1"
   },
   {
     "seller_id": "seller_12",
     "seller_name": "Vale Verde Importados",
     "seller_state": "RJ",
-    "total_revenue": "312064.64",
+    "total_revenue": "1985.41",
+    "state_rank": "1"
+  },
+  {
+    "seller_id": "seller_18",
+    "seller_name": "Aurora Utilidades",
+    "seller_state": "RJ",
+    "total_revenue": "765.30",
+    "state_rank": "2"
+  },
+  {
+    "seller_id": "seller_35",
+    "seller_name": "Planalto Utilidades",
+    "seller_state": "SP",
+    "total_revenue": "4647.00",
+    "state_rank": "1"
+  },
+  {
+    "seller_id": "seller_21",
+    "seller_name": "Bom Preco Comercio",
+    "seller_state": "SP",
+    "total_revenue": "3565.02",
     "state_rank": "2"
   },
   {
     "seller_id": "seller_14",
     "seller_name": "Vale Verde Store",
     "seller_state": "SP",
-    "total_revenue": "804136.70",
-    "state_rank": "1"
-  },
-  {
-    "seller_id": "seller_19",
-    "seller_name": "Horizonte Distribuidora",
-    "seller_state": "SP",
-    "total_revenue": "726993.02",
-    "state_rank": "2"
-  },
-  {
-    "seller_id": "seller_07",
-    "seller_name": "Cerrado Comercio",
-    "seller_state": "SP",
-    "total_revenue": "689410.85",
+    "total_revenue": "3125.86",
     "state_rank": "3"
   }
 ]

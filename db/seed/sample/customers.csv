@@ -1,41 +1,417 @@
 customer_id,customer_unique_id,customer_name,customer_zip_code_prefix,customer_city,customer_state
-customer_000,unique_000,Bruno Oliveira,20000,rio de janeiro,RJ
-customer_001,unique_001,Natalia Silva,20091,salvador,BA
-customer_002,unique_002,Natalia Rodrigues,20182,salvador,BA
-customer_003,unique_003,Paula Rodrigues,20273,belo horizonte,MG
-customer_004,unique_004,Otavio Martins,20364,porto alegre,RS
-customer_005,unique_005,Tiago Gomes,20455,belo horizonte,MG
-customer_006,unique_006,Rafael Oliveira,20546,sao paulo,SP
-customer_007,unique_007,Gabriela Rodrigues,20637,sao paulo,SP
-customer_008,unique_008,Gabriela Silva,20728,porto alegre,RS
-customer_009,unique_009,Vanessa Martins,20819,curitiba,PR
-customer_010,unique_010,Tiago Silva,20910,curitiba,PR
-customer_011,unique_011,Larissa Silva,21001,sao paulo,SP
-customer_012,unique_012,Bruno Carvalho,21092,sao paulo,SP
-customer_013,unique_013,Rafael Lima,21183,curitiba,PR
-customer_014,unique_014,Sofia Oliveira,21274,rio de janeiro,RJ
-customer_015,unique_015,Bruno Lima,21365,curitiba,PR
-customer_016,unique_016,Carla Barbosa,21456,belo horizonte,MG
-customer_017,unique_017,Felipe Santos,21547,rio de janeiro,RJ
-customer_018,unique_018,Yasmin Santos,21638,belo horizonte,MG
-customer_019,unique_019,Hugo Almeida,21729,sao paulo,SP
-customer_020,unique_020,Diego Carvalho,21820,rio de janeiro,RJ
-customer_021,unique_021,Hugo Carvalho,21911,belo horizonte,MG
-customer_022,unique_022,Yasmin Silva,22002,belo horizonte,MG
-customer_023,unique_023,Yasmin Santos,22093,rio de janeiro,RJ
-customer_024,unique_024,Otavio Gomes,22184,porto alegre,RS
-customer_025,unique_025,Vanessa Carvalho,22275,curitiba,PR
-customer_026,unique_026,Sofia Ferreira,22366,salvador,BA
-customer_027,unique_027,Isabela Souza,22457,belo horizonte,MG
-customer_028,unique_028,Larissa Souza,22548,curitiba,PR
-customer_029,unique_029,Isabela Almeida,22639,salvador,BA
-customer_030,unique_002,Natalia Rodrigues,22730,curitiba,PR
-customer_031,unique_024,Otavio Gomes,22821,sao paulo,SP
-customer_032,unique_027,Isabela Souza,22912,salvador,BA
-customer_033,unique_007,Gabriela Rodrigues,23003,curitiba,PR
-customer_034,unique_005,Tiago Gomes,23094,belo horizonte,MG
-customer_035,unique_013,Rafael Lima,23185,salvador,BA
-customer_036,unique_015,Bruno Lima,23276,sao paulo,SP
-customer_037,unique_023,Yasmin Santos,23367,rio de janeiro,RJ
-customer_038,unique_006,Rafael Oliveira,23458,belo horizonte,MG
-customer_039,unique_012,Bruno Carvalho,23549,sao paulo,SP
+cust_000006,person_006169,Yasmin Silva,02556,sao paulo,SP
+cust_000082,person_034426,Sergio Rodrigues,70257,brasilia,DF
+cust_000788,person_033876,Joao Santos,22773,rio de janeiro,RJ
+cust_001423,person_009428,Joao Monteiro,23097,rio de janeiro,RJ
+cust_001532,person_091528,Gabriela Rocha,11065,santos,SP
+cust_001557,person_072576,Bruno Monteiro,21330,rio de janeiro,RJ
+cust_001715,person_001911,Elisa Almeida,04675,sao paulo,SP
+cust_001876,person_003728,Elisa Souza,01548,sao paulo,SP
+cust_002133,person_091852,Ana Ribeiro,08341,sao paulo,SP
+cust_002298,person_057815,Felipe Lima,21221,rio de janeiro,RJ
+cust_002389,person_055130,Tiago Ferreira,20271,rio de janeiro,RJ
+cust_002540,person_064326,Paula Almeida,24370,niteroi,RJ
+cust_002620,person_022441,Otavio Almeida,01229,sao paulo,SP
+cust_002624,person_004666,Bruno Rocha,30286,belo horizonte,MG
+cust_002688,person_062771,Yasmin Alves,02081,sao paulo,SP
+cust_003112,person_090554,Carla Cardoso,03169,sao paulo,SP
+cust_003161,person_093985,Sofia Almeida,01423,sao paulo,SP
+cust_003206,person_042207,Paula Ribeiro,05853,sao paulo,SP
+cust_003300,person_001282,Gabriela Pereira,04571,sao paulo,SP
+cust_003452,person_005630,Fernanda Rodrigues,02342,sao paulo,SP
+cust_003905,person_024876,Marcos Lima,91220,porto alegre,RS
+cust_004561,person_093586,Isabela Barbosa,31160,belo horizonte,MG
+cust_005032,person_043644,Ana Araujo,80540,curitiba,PR
+cust_005218,person_074291,Gustavo Teixeira,07178,guarulhos,SP
+cust_005231,person_029782,Carla Lima,11088,santos,SP
+cust_005655,person_087018,Felipe Teixeira,30775,belo horizonte,MG
+cust_005695,person_039683,Otavio Monteiro,05415,sao paulo,SP
+cust_005948,person_005571,Isabela Oliveira,07115,guarulhos,SP
+cust_005972,person_006184,Sergio Souza,13020,campinas,SP
+cust_006086,person_005571,Isabela Oliveira,07115,guarulhos,SP
+cust_006396,person_024733,Rafael Ferreira,03940,sao paulo,SP
+cust_006773,person_068503,Felipe Pereira,22261,rio de janeiro,RJ
+cust_006859,person_048166,Diego Martins,24348,niteroi,RJ
+cust_006982,person_086432,Fernanda Alves,22763,rio de janeiro,RJ
+cust_007252,person_030771,Sofia Carvalho,21921,rio de janeiro,RJ
+cust_007397,person_050116,Rafael Martins,05783,sao paulo,SP
+cust_007398,person_057963,Felipe Araujo,04851,sao paulo,SP
+cust_007532,person_061959,Vanessa Santos,09896,sao bernardo do campo,SP
+cust_007537,person_042088,Natalia Teixeira,04601,sao paulo,SP
+cust_008145,person_076292,Pedro Araujo,03363,sao paulo,SP
+cust_008146,person_009227,Marcos Pereira,09715,sao bernardo do campo,SP
+cust_008148,person_047586,Sergio Pereira,71710,brasilia,DF
+cust_008451,person_014658,Camila Oliveira,20975,rio de janeiro,RJ
+cust_008505,person_047050,Rafael Rocha,21031,rio de janeiro,RJ
+cust_009102,person_089618,Elisa Alves,01422,sao paulo,SP
+cust_009244,person_039597,Juliana Santos,23013,rio de janeiro,RJ
+cust_009377,person_053961,Paula Lima,06075,osasco,SP
+cust_009598,person_006784,Pedro Oliveira,09240,santo andre,SP
+cust_009658,person_078348,Marcos Silva,09050,santo andre,SP
+cust_009772,person_042742,Leonardo Lima,04364,sao paulo,SP
+cust_010383,person_089507,Carla Carvalho,07121,guarulhos,SP
+cust_010458,person_083223,Marcos Cardoso,08250,sao paulo,SP
+cust_010512,person_000034,Pedro Barbosa,13073,campinas,SP
+cust_011055,person_080587,Natalia Lima,13069,campinas,SP
+cust_011200,person_075155,Otavio Rodrigues,08225,sao paulo,SP
+cust_011209,person_008133,Carla Rocha,04843,sao paulo,SP
+cust_011250,person_072388,Ana Alves,02563,sao paulo,SP
+cust_011599,person_001692,Mariana Rodrigues,70387,brasilia,DF
+cust_011880,person_081544,Sergio Martins,21351,rio de janeiro,RJ
+cust_011939,person_043806,Ana Rodrigues,04821,sao paulo,SP
+cust_012300,person_045089,Juliana Lima,91787,porto alegre,RS
+cust_012321,person_042377,Renata Ferreira,13087,campinas,SP
+cust_012439,person_030613,Otavio Rocha,07170,guarulhos,SP
+cust_012904,person_095220,Fernanda Silva,08257,sao paulo,SP
+cust_012941,person_057109,Yasmin Araujo,03814,sao paulo,SP
+cust_013133,person_059422,Gustavo Santos,90110,porto alegre,RS
+cust_013293,person_094443,Joao Monteiro,20090,rio de janeiro,RJ
+cust_013333,person_080683,Diego Oliveira,13059,campinas,SP
+cust_014265,person_000034,Pedro Barbosa,09840,sao bernardo do campo,SP
+cust_014465,person_020867,Mariana Barbosa,72415,brasilia,DF
+cust_014726,person_050116,Rafael Martins,05783,sao paulo,SP
+cust_014901,person_007774,Tiago Teixeira,70908,brasilia,DF
+cust_015092,person_038539,Rafael Carvalho,21630,rio de janeiro,RJ
+cust_015435,person_036040,Larissa Alves,05386,sao paulo,SP
+cust_015462,person_039021,Leonardo Oliveira,13083,campinas,SP
+cust_015790,person_001918,Otavio Ribeiro,05705,sao paulo,SP
+cust_015930,person_003831,Isabela Silva,31170,belo horizonte,MG
+cust_016106,person_095220,Fernanda Silva,09761,sao bernardo do campo,SP
+cust_016207,person_011553,Fernanda Cardoso,90040,porto alegre,RS
+cust_016440,person_077877,Camila Araujo,02734,sao paulo,SP
+cust_016594,person_093985,Sofia Almeida,01423,sao paulo,SP
+cust_016651,person_091826,Marcos Carvalho,91450,porto alegre,RS
+cust_016762,person_081544,Sergio Martins,03015,sao paulo,SP
+cust_017107,person_060951,Isabela Pereira,22630,rio de janeiro,RJ
+cust_017261,person_071220,Gustavo Martins,03334,sao paulo,SP
+cust_017512,person_039235,Camila Silva,03978,sao paulo,SP
+cust_017577,person_040948,Larissa Ferreira,05374,sao paulo,SP
+cust_018308,person_068554,Pedro Barbosa,30350,belo horizonte,MG
+cust_018589,person_083916,Yasmin Pereira,22231,rio de janeiro,RJ
+cust_018829,person_057187,Sofia Ferreira,09010,santo andre,SP
+cust_018956,person_011130,Gabriela Lima,11045,santos,SP
+cust_019103,person_021113,Isabela Ferreira,03721,sao paulo,SP
+cust_019460,person_056605,Isabela Oliveira,30180,belo horizonte,MG
+cust_019622,person_087235,Hugo Ribeiro,02306,sao paulo,SP
+cust_019872,person_092172,Natalia Ferreira,40080,salvador,BA
+cust_019989,person_039235,Camila Silva,03978,sao paulo,SP
+cust_020272,person_079468,Pedro Gomes,31655,belo horizonte,MG
+cust_020316,person_031726,Elisa Rocha,02470,sao paulo,SP
+cust_020762,person_089206,Bruno Cardoso,21715,rio de janeiro,RJ
+cust_020800,person_018079,Felipe Rocha,21211,rio de janeiro,RJ
+cust_021406,person_009128,Marcos Ferreira,70775,brasilia,DF
+cust_021989,person_085887,Larissa Lima,22790,rio de janeiro,RJ
+cust_022063,person_093592,Carla Rodrigues,22450,rio de janeiro,RJ
+cust_022433,person_017239,Paula Alves,23078,rio de janeiro,RJ
+cust_022775,person_060990,Ana Silva,21715,rio de janeiro,RJ
+cust_022858,person_053267,Felipe Cardoso,30180,belo horizonte,MG
+cust_022929,person_044016,Leonardo Pereira,74823,goiania,GO
+cust_022959,person_008380,Natalia Silva,04609,sao paulo,SP
+cust_023222,person_010252,Tiago Lima,20081,rio de janeiro,RJ
+cust_023245,person_060703,Gustavo Oliveira,02050,sao paulo,SP
+cust_023976,person_045723,Joao Rodrigues,23097,rio de janeiro,RJ
+cust_024443,person_009591,Gustavo Pereira,31615,belo horizonte,MG
+cust_025046,person_018775,Eduardo Gomes,04118,sao paulo,SP
+cust_025062,person_027994,Yasmin Lima,08235,sao paulo,SP
+cust_025460,person_010355,Camila Ribeiro,31260,belo horizonte,MG
+cust_025503,person_013282,Carla Oliveira,41347,salvador,BA
+cust_026178,person_088185,Gustavo Carvalho,03280,sao paulo,SP
+cust_026228,person_042579,Larissa Rodrigues,03610,sao paulo,SP
+cust_026319,person_030612,Bruno Monteiro,04119,sao paulo,SP
+cust_026469,person_091945,Gabriela Monteiro,03136,sao paulo,SP
+cust_026728,person_048902,Isabela Ferreira,13085,campinas,SP
+cust_026920,person_074393,Vanessa Santos,21230,rio de janeiro,RJ
+cust_027222,person_058597,Diego Oliveira,03107,sao paulo,SP
+cust_027365,person_030771,Sofia Carvalho,23036,rio de janeiro,RJ
+cust_027557,person_042814,Sergio Martins,22290,rio de janeiro,RJ
+cust_027693,person_001918,Otavio Ribeiro,05705,sao paulo,SP
+cust_028592,person_002299,Yasmin Lima,04530,sao paulo,SP
+cust_029338,person_003120,Diego Almeida,03685,sao paulo,SP
+cust_029386,person_035786,Otavio Almeida,31210,belo horizonte,MG
+cust_029854,person_005727,Camila Pereira,09112,santo andre,SP
+cust_029873,person_091708,Pedro Silva,31510,belo horizonte,MG
+cust_030036,person_008916,Felipe Carvalho,31260,belo horizonte,MG
+cust_030126,person_063852,Yasmin Araujo,31720,belo horizonte,MG
+cust_030306,person_091528,Gabriela Rocha,11065,santos,SP
+cust_030418,person_043322,Otavio Almeida,41207,salvador,BA
+cust_030654,person_016284,Renata Ferreira,24358,niteroi,RJ
+cust_030763,person_013395,Pedro Ferreira,04038,sao paulo,SP
+cust_030862,person_043832,Mariana Ferreira,09240,santo andre,SP
+cust_031103,person_092655,Elisa Rocha,05054,sao paulo,SP
+cust_031188,person_069038,Diego Lima,11010,santos,SP
+cust_031287,person_009428,Joao Monteiro,72140,brasilia,DF
+cust_031426,person_021742,Renata Almeida,72650,brasilia,DF
+cust_031440,person_036495,Diego Rocha,31365,belo horizonte,MG
+cust_031479,person_039951,Rafael Rocha,22723,rio de janeiro,RJ
+cust_031708,person_047341,Marcos Rodrigues,04217,sao paulo,SP
+cust_031831,person_094218,Juliana Ribeiro,01453,sao paulo,SP
+cust_031896,person_045105,Eduardo Souza,07270,guarulhos,SP
+cust_031979,person_086756,Vanessa Gomes,08090,sao paulo,SP
+cust_032057,person_012628,Larissa Rocha,13058,campinas,SP
+cust_032317,person_055130,Tiago Ferreira,82540,curitiba,PR
+cust_032478,person_010355,Camila Ribeiro,03448,sao paulo,SP
+cust_033454,person_040995,Paula Teixeira,09687,sao bernardo do campo,SP
+cust_033458,person_073659,Ana Oliveira,07092,guarulhos,SP
+cust_033501,person_022441,Otavio Almeida,02762,sao paulo,SP
+cust_033527,person_073075,Elisa Oliveira,72308,brasilia,DF
+cust_033539,person_047050,Rafael Rocha,21615,rio de janeiro,RJ
+cust_035027,person_075155,Otavio Rodrigues,08225,sao paulo,SP
+cust_035749,person_014730,Vanessa Oliveira,23082,rio de janeiro,RJ
+cust_035752,person_018775,Eduardo Gomes,03583,sao paulo,SP
+cust_036134,person_040903,Elisa Cardoso,02862,sao paulo,SP
+cust_036139,person_077830,Bruno Barbosa,09160,santo andre,SP
+cust_036208,person_001692,Mariana Rodrigues,04707,sao paulo,SP
+cust_036669,person_023864,Juliana Gomes,09790,sao bernardo do campo,SP
+cust_036877,person_039173,Hugo Rodrigues,74290,goiania,GO
+cust_036916,person_054073,Ana Rocha,22420,rio de janeiro,RJ
+cust_037064,person_015669,Fernanda Carvalho,24340,niteroi,RJ
+cust_037190,person_039951,Rafael Rocha,22723,rio de janeiro,RJ
+cust_037454,person_065911,Gustavo Lima,23565,rio de janeiro,RJ
+cust_037489,person_094533,Juliana Barbosa,81610,curitiba,PR
+cust_037853,person_024733,Rafael Ferreira,03940,sao paulo,SP
+cust_037910,person_091275,Renata Almeida,02552,sao paulo,SP
+cust_038021,person_009146,Carla Teixeira,91215,porto alegre,RS
+cust_038061,person_016208,Sofia Almeida,73105,brasilia,DF
+cust_038095,person_038010,Gabriela Oliveira,02082,sao paulo,SP
+cust_038103,person_077877,Camila Araujo,23010,rio de janeiro,RJ
+cust_038211,person_036827,Mariana Pereira,13040,campinas,SP
+cust_038824,person_034731,Isabela Araujo,11030,santos,SP
+cust_039661,person_013096,Pedro Carvalho,03309,sao paulo,SP
+cust_039680,person_006661,Joao Cardoso,13091,campinas,SP
+cust_039808,person_056292,Camila Gomes,05335,sao paulo,SP
+cust_039918,person_089507,Carla Carvalho,82720,curitiba,PR
+cust_039970,person_081549,Hugo Pereira,24110,niteroi,RJ
+cust_040075,person_060703,Gustavo Oliveira,02050,sao paulo,SP
+cust_040105,person_008433,Elisa Monteiro,04472,sao paulo,SP
+cust_040182,person_006076,Elisa Pereira,04602,sao paulo,SP
+cust_040273,person_065014,Vanessa Barbosa,30190,belo horizonte,MG
+cust_040466,person_084314,Isabela Martins,23067,rio de janeiro,RJ
+cust_041267,person_036026,Fernanda Alves,04930,sao paulo,SP
+cust_041412,person_077162,Rafael Ribeiro,22772,rio de janeiro,RJ
+cust_041548,person_049024,Diego Barbosa,21740,rio de janeiro,RJ
+cust_042044,person_042377,Renata Ferreira,13087,campinas,SP
+cust_042539,person_079521,Larissa Carvalho,21330,rio de janeiro,RJ
+cust_042644,person_068529,Bruno Lima,30431,belo horizonte,MG
+cust_043053,person_001707,Elisa Monteiro,05652,sao paulo,SP
+cust_043255,person_013916,Fernanda Lima,91270,porto alegre,RS
+cust_043402,person_078635,Otavio Souza,02077,sao paulo,SP
+cust_044513,person_016713,Hugo Teixeira,05350,sao paulo,SP
+cust_044867,person_083580,Sofia Oliveira,02734,sao paulo,SP
+cust_045023,person_073659,Ana Oliveira,05361,sao paulo,SP
+cust_045027,person_007774,Tiago Teixeira,03810,sao paulo,SP
+cust_045031,person_032780,Rafael Barbosa,72325,brasilia,DF
+cust_045217,person_073263,Otavio Rocha,02673,sao paulo,SP
+cust_045553,person_011130,Gabriela Lima,11045,santos,SP
+cust_045594,person_056330,Elisa Lima,05057,sao paulo,SP
+cust_046014,person_085887,Larissa Lima,22790,rio de janeiro,RJ
+cust_046389,person_050043,Rafael Santos,03067,sao paulo,SP
+cust_046499,person_065863,Leonardo Carvalho,21741,rio de janeiro,RJ
+cust_047038,person_077162,Rafael Ribeiro,08152,sao paulo,SP
+cust_047512,person_030612,Bruno Monteiro,04119,sao paulo,SP
+cust_048064,person_070433,Gabriela Cardoso,23060,rio de janeiro,RJ
+cust_049258,person_009227,Marcos Pereira,02722,sao paulo,SP
+cust_049773,person_060564,Larissa Cardoso,03819,sao paulo,SP
+cust_049951,person_014730,Vanessa Oliveira,04428,sao paulo,SP
+cust_050298,person_061699,Otavio Pereira,04281,sao paulo,SP
+cust_050617,person_060806,Camila Cardoso,41480,salvador,BA
+cust_050774,person_037321,Juliana Lima,90460,porto alegre,RS
+cust_051270,person_040903,Elisa Cardoso,02862,sao paulo,SP
+cust_051435,person_011613,Fernanda Alves,05311,sao paulo,SP
+cust_051469,person_061699,Otavio Pereira,04184,sao paulo,SP
+cust_051544,person_054224,Camila Almeida,31610,belo horizonte,MG
+cust_051714,person_014364,Gabriela Teixeira,41120,salvador,BA
+cust_052127,person_013282,Carla Oliveira,81930,curitiba,PR
+cust_052298,person_012909,Natalia Lima,09133,santo andre,SP
+cust_052595,person_069038,Diego Lima,02176,sao paulo,SP
+cust_052816,person_092655,Elisa Rocha,05054,sao paulo,SP
+cust_053016,person_002132,Gustavo Ferreira,03077,sao paulo,SP
+cust_053614,person_033876,Joao Santos,22773,rio de janeiro,RJ
+cust_054041,person_089618,Elisa Alves,01422,sao paulo,SP
+cust_054828,person_070743,Gustavo Lima,03257,sao paulo,SP
+cust_054859,person_045723,Joao Rodrigues,70701,brasilia,DF
+cust_055208,person_042398,Ana Lima,02345,sao paulo,SP
+cust_055675,person_070743,Gustavo Lima,03149,sao paulo,SP
+cust_055790,person_071808,Diego Alves,31970,belo horizonte,MG
+cust_056688,person_036040,Larissa Alves,22051,rio de janeiro,RJ
+cust_057049,person_018079,Felipe Rocha,04112,sao paulo,SP
+cust_057438,person_002299,Yasmin Lima,04530,sao paulo,SP
+cust_057439,person_001152,Tiago Silva,74580,goiania,GO
+cust_057539,person_061403,Marcos Carvalho,22765,rio de janeiro,RJ
+cust_057694,person_070909,Juliana Alves,02729,sao paulo,SP
+cust_058028,person_031459,Otavio Oliveira,03367,sao paulo,SP
+cust_058103,person_010355,Camila Ribeiro,04634,sao paulo,SP
+cust_058107,person_074032,Isabela Ferreira,03657,sao paulo,SP
+cust_058192,person_076636,Otavio Gomes,03977,sao paulo,SP
+cust_058336,person_077367,Yasmin Silva,02531,sao paulo,SP
+cust_058492,person_077367,Yasmin Silva,02531,sao paulo,SP
+cust_058576,person_055242,Leonardo Cardoso,05131,sao paulo,SP
+cust_058683,person_013335,Felipe Oliveira,07052,guarulhos,SP
+cust_058977,person_006076,Elisa Pereira,13023,campinas,SP
+cust_059468,person_085537,Joao Gomes,20040,rio de janeiro,RJ
+cust_059735,person_001911,Elisa Almeida,04675,sao paulo,SP
+cust_059920,person_010355,Camila Ribeiro,30850,belo horizonte,MG
+cust_060216,person_031512,Yasmin Monteiro,91220,porto alegre,RS
+cust_060445,person_082996,Otavio Almeida,73080,brasilia,DF
+cust_060503,person_018136,Otavio Lima,73060,brasilia,DF
+cust_060536,person_073308,Hugo Araujo,30865,belo horizonte,MG
+cust_061558,person_091708,Pedro Silva,31510,belo horizonte,MG
+cust_061743,person_067631,Gabriela Araujo,31960,belo horizonte,MG
+cust_061951,person_040659,Sofia Oliveira,22420,rio de janeiro,RJ
+cust_062036,person_009428,Joao Monteiro,23520,rio de janeiro,RJ
+cust_062175,person_043632,Isabela Souza,40275,salvador,BA
+cust_062313,person_004898,Pedro Souza,09270,santo andre,SP
+cust_063056,person_032171,Eduardo Teixeira,21842,rio de janeiro,RJ
+cust_063616,person_094479,Eduardo Santos,03626,sao paulo,SP
+cust_063813,person_086756,Vanessa Gomes,09139,santo andre,SP
+cust_063829,person_032983,Marcos Almeida,13077,campinas,SP
+cust_063858,person_048590,Joao Barbosa,24241,niteroi,RJ
+cust_064604,person_011817,Elisa Oliveira,04375,sao paulo,SP
+cust_064907,person_068503,Felipe Pereira,22040,rio de janeiro,RJ
+cust_065297,person_033761,Pedro Ribeiro,13056,campinas,SP
+cust_065395,person_056118,Otavio Oliveira,30190,belo horizonte,MG
+cust_065480,person_089033,Isabela Oliveira,03603,sao paulo,SP
+cust_065547,person_092172,Natalia Ferreira,40080,salvador,BA
+cust_065610,person_084315,Juliana Araujo,91900,porto alegre,RS
+cust_065716,person_069475,Fernanda Rocha,31872,belo horizonte,MG
+cust_066019,person_090401,Marcos Barbosa,04121,sao paulo,SP
+cust_066251,person_073334,Paula Ferreira,91510,porto alegre,RS
+cust_066471,person_091426,Rafael Souza,90650,porto alegre,RS
+cust_066635,person_048545,Bruno Teixeira,04672,sao paulo,SP
+cust_066801,person_020867,Mariana Barbosa,72415,brasilia,DF
+cust_067077,person_091945,Gabriela Monteiro,02266,sao paulo,SP
+cust_067418,person_013282,Carla Oliveira,03442,sao paulo,SP
+cust_067734,person_003230,Leonardo Gomes,04268,sao paulo,SP
+cust_067753,person_014658,Camila Oliveira,04309,sao paulo,SP
+cust_067902,person_024520,Camila Rocha,05445,sao paulo,SP
+cust_067968,person_059438,Eduardo Teixeira,72130,brasilia,DF
+cust_068011,person_001707,Elisa Monteiro,72735,brasilia,DF
+cust_068046,person_014985,Diego Santos,41710,salvador,BA
+cust_068355,person_057187,Sofia Ferreira,21825,rio de janeiro,RJ
+cust_068692,person_063852,Yasmin Araujo,31720,belo horizonte,MG
+cust_068893,person_065100,Yasmin Oliveira,24220,niteroi,RJ
+cust_068940,person_086324,Gabriela Araujo,24320,niteroi,RJ
+cust_069322,person_051107,Tiago Monteiro,09170,santo andre,SP
+cust_069582,person_062056,Leonardo Alves,02848,sao paulo,SP
+cust_069663,person_092057,Isabela Ferreira,09635,sao bernardo do campo,SP
+cust_070497,person_070743,Gustavo Lima,70293,brasilia,DF
+cust_070504,person_043011,Paula Teixeira,05011,sao paulo,SP
+cust_070654,person_061041,Larissa Teixeira,91350,porto alegre,RS
+cust_070770,person_010324,Bruno Rodrigues,09190,santo andre,SP
+cust_070825,person_010324,Bruno Rodrigues,09190,santo andre,SP
+cust_071133,person_016186,Isabela Silva,91540,porto alegre,RS
+cust_071466,person_060347,Larissa Araujo,13073,campinas,SP
+cust_071863,person_089106,Ana Ribeiro,90650,porto alegre,RS
+cust_071894,person_084314,Isabela Martins,23067,rio de janeiro,RJ
+cust_072119,person_024298,Camila Almeida,01317,sao paulo,SP
+cust_072301,person_042742,Leonardo Lima,04364,sao paulo,SP
+cust_072338,person_030565,Diego Cardoso,30350,belo horizonte,MG
+cust_072551,person_082301,Felipe Pereira,05267,sao paulo,SP
+cust_072553,person_067631,Gabriela Araujo,21750,rio de janeiro,RJ
+cust_072882,person_024298,Camila Almeida,22260,rio de janeiro,RJ
+cust_073566,person_024916,Yasmin Martins,30555,belo horizonte,MG
+cust_073790,person_009128,Marcos Ferreira,70658,brasilia,DF
+cust_073901,person_064326,Paula Almeida,13031,campinas,SP
+cust_074017,person_002600,Larissa Rodrigues,03648,sao paulo,SP
+cust_074221,person_091852,Ana Ribeiro,08341,sao paulo,SP
+cust_074259,person_073805,Sofia Almeida,01155,sao paulo,SP
+cust_074495,person_090554,Carla Cardoso,03169,sao paulo,SP
+cust_075072,person_012628,Larissa Rocha,41197,salvador,BA
+cust_075099,person_089479,Diego Cardoso,31310,belo horizonte,MG
+cust_075203,person_057815,Felipe Lima,21221,rio de janeiro,RJ
+cust_075304,person_046980,Pedro Cardoso,04552,sao paulo,SP
+cust_075614,person_003268,Renata Rodrigues,13088,campinas,SP
+cust_075652,person_001761,Larissa Souza,74810,goiania,GO
+cust_075668,person_041890,Natalia Rocha,71710,brasilia,DF
+cust_075766,person_016186,Isabela Silva,91250,porto alegre,RS
+cust_075835,person_006199,Ana Oliveira,24110,niteroi,RJ
+cust_075891,person_074886,Carla Pereira,22231,rio de janeiro,RJ
+cust_075920,person_086736,Fernanda Gomes,05081,sao paulo,SP
+cust_076042,person_010355,Camila Ribeiro,05033,sao paulo,SP
+cust_076179,person_068569,Tiago Oliveira,07161,guarulhos,SP
+cust_076196,person_007405,Pedro Cardoso,01107,sao paulo,SP
+cust_076661,person_013335,Felipe Oliveira,07052,guarulhos,SP
+cust_076800,person_047695,Juliana Cardoso,22790,rio de janeiro,RJ
+cust_077663,person_047695,Juliana Cardoso,22790,rio de janeiro,RJ
+cust_077842,person_033605,Marcos Ferreira,13087,campinas,SP
+cust_077883,person_020168,Juliana Silva,09185,santo andre,SP
+cust_077904,person_025157,Ana Rocha,90510,porto alegre,RS
+cust_078444,person_027157,Yasmin Ribeiro,01223,sao paulo,SP
+cust_078504,person_093467,Bruno Alves,23555,rio de janeiro,RJ
+cust_078733,person_073075,Elisa Oliveira,01407,sao paulo,SP
+cust_079041,person_000952,Leonardo Carvalho,13082,campinas,SP
+cust_079073,person_003435,Leonardo Carvalho,81020,curitiba,PR
+cust_079289,person_046049,Paula Rocha,03052,sao paulo,SP
+cust_079427,person_071832,Tiago Martins,09623,sao bernardo do campo,SP
+cust_079818,person_091275,Renata Almeida,02552,sao paulo,SP
+cust_079872,person_016284,Renata Ferreira,02242,sao paulo,SP
+cust_080742,person_051107,Tiago Monteiro,21755,rio de janeiro,RJ
+cust_081483,person_040338,Otavio Alves,30350,belo horizonte,MG
+cust_082197,person_078635,Otavio Souza,80620,curitiba,PR
+cust_082281,person_065696,Renata Barbosa,05267,sao paulo,SP
+cust_082447,person_089331,Natalia Lima,04763,sao paulo,SP
+cust_082448,person_096005,Rafael Souza,03558,sao paulo,SP
+cust_082473,person_008433,Elisa Monteiro,22471,rio de janeiro,RJ
+cust_082524,person_059413,Vanessa Martins,03344,sao paulo,SP
+cust_082673,person_052966,Mariana Oliveira,20090,rio de janeiro,RJ
+cust_082769,person_060798,Isabela Ribeiro,04845,sao paulo,SP
+cust_082945,person_086389,Joao Ferreira,30421,belo horizonte,MG
+cust_083610,person_039683,Otavio Monteiro,05415,sao paulo,SP
+cust_083840,person_065122,Pedro Souza,21220,rio de janeiro,RJ
+cust_083904,person_044016,Leonardo Pereira,74823,goiania,GO
+cust_084060,person_071808,Diego Alves,02859,sao paulo,SP
+cust_084199,person_071238,Eduardo Barbosa,09132,santo andre,SP
+cust_084216,person_029579,Ana Souza,91110,porto alegre,RS
+cust_084259,person_061867,Yasmin Souza,03251,sao paulo,SP
+cust_084821,person_057720,Leonardo Gomes,31655,belo horizonte,MG
+cust_085203,person_004666,Bruno Rocha,30286,belo horizonte,MG
+cust_085210,person_063852,Yasmin Araujo,31744,belo horizonte,MG
+cust_085435,person_022791,Vanessa Carvalho,30865,belo horizonte,MG
+cust_085648,person_007074,Isabela Gomes,05541,sao paulo,SP
+cust_085690,person_063153,Sergio Barbosa,09726,sao bernardo do campo,SP
+cust_085761,person_033605,Marcos Ferreira,13087,campinas,SP
+cust_085768,person_035079,Felipe Barbosa,05024,sao paulo,SP
+cust_086194,person_003268,Renata Rodrigues,13088,campinas,SP
+cust_086548,person_035054,Vanessa Rocha,31015,belo horizonte,MG
+cust_086730,person_009429,Felipe Oliveira,03351,sao paulo,SP
+cust_087508,person_083745,Hugo Oliveira,22441,rio de janeiro,RJ
+cust_087832,person_086389,Joao Ferreira,31080,belo horizonte,MG
+cust_087899,person_086432,Fernanda Alves,22763,rio de janeiro,RJ
+cust_088008,person_073263,Otavio Rocha,04727,sao paulo,SP
+cust_088704,person_091113,Eduardo Silva,40140,salvador,BA
+cust_089333,person_053055,Gustavo Silva,08110,sao paulo,SP
+cust_089683,person_093592,Carla Rodrigues,81450,curitiba,PR
+cust_089942,person_072576,Bruno Monteiro,02212,sao paulo,SP
+cust_090085,person_014364,Gabriela Teixeira,04966,sao paulo,SP
+cust_090869,person_035786,Otavio Almeida,31210,belo horizonte,MG
+cust_090870,person_070483,Tiago Pereira,07060,guarulhos,SP
+cust_091054,person_043078,Bruno Cardoso,22795,rio de janeiro,RJ
+cust_091154,person_079468,Pedro Gomes,03645,sao paulo,SP
+cust_091567,person_073734,Natalia Carvalho,07170,guarulhos,SP
+cust_091584,person_036827,Mariana Pereira,04013,sao paulo,SP
+cust_091764,person_003435,Leonardo Carvalho,03220,sao paulo,SP
+cust_092330,person_051269,Joao Araujo,70648,brasilia,DF
+cust_092397,person_021878,Diego Teixeira,80410,curitiba,PR
+cust_092609,person_069458,Felipe Ferreira,21741,rio de janeiro,RJ
+cust_092750,person_010355,Camila Ribeiro,13075,campinas,SP
+cust_093577,person_073585,Diego Rocha,31840,belo horizonte,MG
+cust_093990,person_004898,Pedro Souza,22061,rio de janeiro,RJ
+cust_094384,person_087682,Larissa Lima,05041,sao paulo,SP
+cust_094771,person_038539,Rafael Carvalho,90870,porto alegre,RS
+cust_094881,person_048902,Isabela Ferreira,05468,sao paulo,SP
+cust_094901,person_069038,Diego Lima,24030,niteroi,RJ
+cust_095392,person_014114,Felipe Oliveira,20921,rio de janeiro,RJ
+cust_095585,person_042927,Sergio Oliveira,30840,belo horizonte,MG
+cust_095772,person_006661,Joao Cardoso,04523,sao paulo,SP
+cust_096156,person_021878,Diego Teixeira,80410,curitiba,PR
+cust_096181,person_005630,Fernanda Rodrigues,03462,sao paulo,SP
+cust_096209,person_033205,Fernanda Barbosa,02716,sao paulo,SP
+cust_096510,person_091945,Gabriela Monteiro,04249,sao paulo,SP
+cust_096511,person_086324,Gabriela Araujo,24320,niteroi,RJ
+cust_096554,person_055242,Leonardo Cardoso,40717,salvador,BA
+cust_097660,person_053363,Yasmin Pereira,30830,belo horizonte,MG
+cust_097722,person_063153,Sergio Barbosa,09726,sao bernardo do campo,SP
+cust_097754,person_061959,Vanessa Santos,05181,sao paulo,SP
+cust_097768,person_018136,Otavio Lima,71503,brasilia,DF
+cust_098073,person_034783,Sofia Almeida,13012,campinas,SP
+cust_098788,person_024916,Yasmin Martins,73250,brasilia,DF
+cust_099429,person_010355,Camila Ribeiro,31060,belo horizonte,MG

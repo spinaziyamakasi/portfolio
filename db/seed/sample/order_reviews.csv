@@ -1,46 +1,448 @@
 review_id,order_id,review_score,review_comment_title,review_comment_message,review_creation_date,review_answer_timestamp
-review_0000,order_0000,4,,,2017-12-15 02:00:00,2017-12-18 02:00:00
-review_0001,order_0001,5,,,2017-12-28 23:00:00,2018-01-02 23:00:00
-review_0003,order_0003,5,,,2017-12-27 19:00:00,2017-12-30 19:00:00
-review_0005,order_0005,2,,,2017-12-09 06:00:00,2017-12-13 06:00:00
-review_0006,order_0006,5,,,2017-12-17 23:00:00,2017-12-21 23:00:00
-review_0007,order_0007,4,,,2017-12-17 06:00:00,2017-12-18 06:00:00
-review_0008,order_0008,3,,,2017-12-09 00:00:00,2017-12-13 00:00:00
-review_0009,order_0009,1,,,2017-12-08 18:00:00,2017-12-13 18:00:00
-review_0010,order_0010,4,,,2017-12-20 02:00:00,2017-12-21 02:00:00
-review_0011,order_0011,1,,,2017-12-02 22:00:00,2017-12-06 22:00:00
-review_0012,order_0012,4,,,2017-12-26 20:00:00,2017-12-30 20:00:00
-review_0013,order_0013,4,,,2017-12-17 12:00:00,2017-12-21 12:00:00
-review_0014,order_0014,5,,,2017-12-27 04:00:00,2017-12-30 04:00:00
-review_0015,order_0015,5,,,2017-12-19 08:00:00,2017-12-21 08:00:00
-review_0016,order_0016,2,,,2017-12-06 00:00:00,2017-12-07 00:00:00
-review_0018,order_0018,5,,,2017-12-18 07:00:00,2017-12-22 07:00:00
-review_0020,order_0020,3,,,2017-12-27 16:00:00,2017-12-29 16:00:00
-review_0022,order_0022,1,,,2017-12-30 03:00:00,2018-01-03 03:00:00
-review_0023,order_0023,1,,,2017-12-24 18:00:00,2017-12-25 18:00:00
-review_0024,order_0024,1,,,2017-12-17 05:00:00,2017-12-18 05:00:00
-review_0025,order_0025,1,,,2017-12-19 10:00:00,2017-12-21 10:00:00
-review_0026,order_0026,1,,,2017-12-27 08:00:00,2017-12-30 08:00:00
-review_0027,order_0027,5,,,2017-12-21 06:00:00,2017-12-26 06:00:00
-review_0028,order_0028,3,,,2017-12-24 15:00:00,2017-12-26 15:00:00
-review_0030,order_0030,4,,,2017-12-22 16:00:00,2017-12-23 16:00:00
-review_0031,order_0031,5,,,2017-12-03 01:00:00,2017-12-05 01:00:00
-review_0032,order_0032,4,,,2017-12-14 09:00:00,2017-12-15 09:00:00
-review_0035,order_0035,5,,,2017-12-21 02:00:00,2017-12-25 02:00:00
-review_0036,order_0036,3,,,2017-12-19 19:00:00,2017-12-24 19:00:00
-review_0037,order_0037,2,,,2017-12-22 02:00:00,2017-12-24 02:00:00
-review_0040,order_0040,4,,,2017-12-14 08:00:00,2017-12-16 08:00:00
-review_0041,order_0041,3,,,2017-12-25 14:00:00,2017-12-26 14:00:00
-review_0044,order_0044,2,,,2017-12-30 16:00:00,2018-01-03 16:00:00
-review_0045,order_0045,5,,,2017-12-30 22:00:00,2018-01-01 22:00:00
-review_0047,order_0047,5,,,2017-12-25 09:00:00,2017-12-27 09:00:00
-review_0049,order_0049,1,,,2017-12-25 18:00:00,2017-12-26 18:00:00
-review_0050,order_0050,4,,,2017-12-02 17:00:00,2017-12-07 17:00:00
-review_0051,order_0051,4,,,2017-12-02 17:00:00,2017-12-07 17:00:00
-review_0052,order_0052,3,,,2017-12-19 10:00:00,2017-12-24 10:00:00
-review_0053,order_0053,3,,,2017-12-23 13:00:00,2017-12-28 13:00:00
-review_0055,order_0055,4,,,2017-12-07 14:00:00,2017-12-09 14:00:00
-review_0056,order_0056,4,,,2017-12-30 06:00:00,2018-01-01 06:00:00
-review_0057,order_0057,1,,,2017-12-23 07:00:00,2017-12-28 07:00:00
-review_0058,order_0058,4,,,2017-12-22 20:00:00,2017-12-24 20:00:00
-review_0059,order_0059,4,,,2017-12-13 17:00:00,2017-12-17 17:00:00
+review_000045,order_084184,4,,"Inicialmente o pedido veio incompleto, passei uma msg a lannister (sem receber a resposta), recebi o restante do pedido 2 dias depois.",2017-08-01 00:00:00,2017-08-04 11:08:08
+review_000113,order_065417,5,,,2018-07-24 00:00:00,2018-07-25 00:25:08
+review_000207,order_098413,3,,,2017-11-23 00:00:00,2017-11-26 00:02:49
+review_000281,order_090359,1,,"Dessa vez a culpa foi dos correios,ele se atrasaram deve ser a tal greve deles",2018-04-15 00:00:00,2018-04-20 03:43:12
+review_001002,order_041400,5,,atendeu minhas expectativas,2017-12-05 00:00:00,2017-12-06 03:40:35
+review_001173,order_035125,5,,,2017-09-07 00:00:00,2017-09-08 01:28:10
+review_001238,order_012399,5,,Sem surpresas desagradáveis. Td como planejado e chegou bem rápido ,2017-03-21 00:00:00,2017-03-22 10:44:13
+review_001388,order_086025,1,,"mercadoria chegou faltando pessa, entrei em contato não retornaram. Mercadoria com defeito.",2017-10-24 00:00:00,2018-01-31 03:49:25
+review_001695,order_001314,4,,,2018-03-01 00:00:00,2018-03-02 04:57:39
+review_001914,order_000149,1,,Espero obter uma resposta para minha encomenda. Comprei 3 controles remotos para ar condicionado e apenas recebi 1 controle Komeco e dos 2 controles Elgin pedidos e pago só foi entregue 1 controle Elg,2018-02-09 00:00:00,2018-02-10 23:55:18
+review_001914,order_083775,1,,Espero obter uma resposta para minha encomenda. Comprei 3 controles remotos para ar condicionado e apenas recebi 1 controle Komeco e dos 2 controles Elgin pedidos e pago só foi entregue 1 controle Elg,2018-02-09 00:00:00,2018-02-10 23:55:18
+review_001917,order_044956,5,Excelente,Excelente gostei o produto chegou antes do prazo,2018-06-22 00:00:00,2018-06-22 22:57:33
+review_002009,order_065098,5,,,2018-04-24 00:00:00,2018-04-24 22:43:20
+review_002046,order_001794,5,Muito prática e moderna!,"Muito práticas! Não uso nem sacos plásticos, pois levo os recicláveis limpos em cada lixeira p/ os carrinhos coletores de lixo do condomínio. Comprei tb branca e preta, p/ orgânicos e não recicláveis",2018-05-22 00:00:00,2018-05-24 16:39:57
+review_002241,order_028247,4,,,2018-02-21 00:00:00,2018-02-24 01:36:10
+review_002298,order_012985,1,,"Produto de péssima qualidade, as 3 partes de madeira vieram arranhadas e lascadas. Pintura horrível dos cavaletes, parece que era preta e foi pintada de amarelo. Sem marcação p furação. Arrependida.",2017-03-04 00:00:00,2017-03-05 22:45:33
+review_002313,order_001589,5,,,2018-04-24 00:00:00,2018-04-25 01:13:03
+review_002708,order_023168,4,,,2017-06-18 00:00:00,2017-06-18 23:23:58
+review_002979,order_018651,1,,Cliente não tem comprometimento com suas vendas.,2018-02-07 00:00:00,2018-02-20 19:06:04
+review_003526,order_029123,5,,,2018-01-23 00:00:00,2018-01-24 00:47:07
+review_003526,order_029971,5,,,2018-01-23 00:00:00,2018-01-24 00:47:07
+review_003645,order_025554,4,,,2017-07-12 00:00:00,2017-07-15 11:28:38
+review_003834,order_051588,5,,"stark sempre me satisfazendo , como e recomendo sempre !",2017-05-13 00:00:00,2017-05-14 01:14:30
+review_003866,order_039614,5,,,2017-06-06 00:00:00,2017-06-07 02:54:31
+review_003866,order_080827,5,,,2017-06-06 00:00:00,2017-06-07 02:54:31
+review_003938,order_005497,5,,Adorei,2018-02-03 00:00:00,2018-02-03 21:50:57
+review_003964,order_059549,5,,,2018-06-05 00:00:00,2018-06-07 22:44:21
+review_004067,order_031401,5,,,2018-07-03 00:00:00,2018-07-04 19:56:16
+review_004116,order_024529,5,,,2017-06-10 00:00:00,2017-06-11 19:50:44
+review_004504,order_091000,3,,,2017-03-23 00:00:00,2017-03-24 13:00:37
+review_004847,order_040247,5,,,2018-07-21 00:00:00,2018-07-24 02:10:05
+review_004894,order_012517,3,,"Só recebi o cabo de rede. O cabo extensor usb ainda não recebi e está previsto só para o dia 23.03.2018, não achei correto.",2018-02-28 00:00:00,2018-03-02 23:08:38
+review_005805,order_099189,5,,entrega antes do prazo e de acordo com o comprado. ,2017-08-24 00:00:00,2017-08-25 11:19:31
+review_005905,order_007870,4,OK,OK,2018-05-22 00:00:00,2018-05-25 14:19:16
+review_005935,order_042383,5,,Bom produto. Boa entrega. Tudo certo. Recomendo.,2018-03-13 00:00:00,2018-03-13 19:25:34
+review_006035,order_091261,5,,,2017-10-21 00:00:00,2017-10-21 14:32:36
+review_006202,order_016047,5,Super recomendo!,Produto entregue dois dias após a compra. Empresa parceira extremamente eficiente!,2018-05-15 00:00:00,2018-05-15 21:36:58
+review_006676,order_025385,5,,,2017-05-05 00:00:00,2017-05-10 21:52:57
+review_006715,order_041810,4,,Ok,2018-02-28 00:00:00,2018-02-28 08:50:00
+review_006742,order_023573,5,,,2017-08-31 00:00:00,2017-09-03 03:41:01
+review_006758,order_067759,5,,,2017-09-20 00:00:00,2017-09-21 08:21:29
+review_006895,order_065730,3,,,2018-01-26 00:00:00,2018-01-26 21:28:36
+review_007233,order_012879,5,,Como sempre...recebido no prazo. Produto lindo!!! Ultra satisfeita. ,2018-01-29 00:00:00,2018-01-30 04:44:31
+review_007321,order_032594,5,,,2017-08-29 00:00:00,2017-08-30 01:06:27
+review_007757,order_008361,4,,Mto bom,2017-02-22 00:00:00,2017-02-25 01:40:44
+review_008456,order_059972,5,,,2018-06-15 00:00:00,2018-06-16 22:57:28
+review_010393,order_005424,4,,,2018-04-01 00:00:00,2018-05-02 02:51:46
+review_010480,order_015851,5,Adorei ,"Tudo certo, bem embalado, chapéu lindo! ",2018-08-21 00:00:00,2018-08-23 21:15:24
+review_010570,order_049578,5,,,2018-05-23 00:00:00,2018-05-23 23:37:11
+review_010732,order_084510,5,,,2017-12-24 00:00:00,2017-12-26 16:52:10
+review_010831,order_055336,5,,,2017-06-29 00:00:00,2017-07-02 03:01:58
+review_010926,order_033687,5,Ótimo produto ,"Recebi antes do prazo, a cortina é linda, exatamente igual a descrição, mesmo tamanho das especificações, ótimo custo beneficio, super recomendo ",2018-06-09 00:00:00,2018-06-10 04:34:20
+review_010944,order_093585,5,,,2017-09-16 00:00:00,2017-09-17 18:00:10
+review_010944,order_064872,5,,,2017-09-16 00:00:00,2017-09-17 18:00:10
+review_010957,order_051986,5,,,2017-05-09 00:00:00,2017-05-10 13:18:55
+review_011193,order_081765,5,Otimo,,2018-06-19 00:00:00,2018-06-20 10:44:41
+review_011284,order_062020,2,,,2017-03-02 00:00:00,2017-03-02 19:26:41
+review_011771,order_027797,1,,"Uma coligação de MERDAS ninguém da satisfação e solução aos problemas 
+DESCASO TOTAL ",2017-04-12 00:00:00,2017-04-14 09:52:20
+review_012278,order_007791,5,,,2017-11-01 00:00:00,2017-11-04 13:19:20
+review_012410,order_051146,1,,,2018-05-11 00:00:00,2018-05-12 15:45:59
+review_012507,order_025690,4,,,2017-05-06 00:00:00,2017-05-08 21:18:16
+review_012561,order_022709,5,,,2018-01-23 00:00:00,2018-01-23 19:18:02
+review_012805,order_071968,5,,,2018-05-15 00:00:00,2018-05-16 20:46:09
+review_013003,order_072786,4,,"gostei do atendimento , recomendo",2018-01-12 00:00:00,2018-01-13 11:47:17
+review_013904,order_004462,2,Mercadoria ok,A cadeira veio ok e no prazo. Dei apenas duas estrelas pois os demais produtos pedidos chegaram com uma semana de atraso na entrega!,2018-06-13 00:00:00,2018-06-14 11:33:01
+review_014202,order_052938,5,,,2017-09-13 00:00:00,2017-09-16 11:09:13
+review_014370,order_076162,5,,,2017-10-27 00:00:00,2017-10-27 15:48:48
+review_015262,order_073260,4,,,2018-07-24 00:00:00,2018-07-25 04:10:03
+review_015275,order_039603,3,, a loja é otima,2018-06-06 00:00:00,2018-06-12 22:22:27
+review_015454,order_020479,5,,,2017-12-27 00:00:00,2017-12-28 13:20:19
+review_016226,order_052242,4,,,2018-07-25 00:00:00,2018-07-26 00:28:50
+review_016610,order_053293,5,,,2018-07-29 00:00:00,2018-07-31 23:55:16
+review_016828,order_090839,5,Parabéns,Recomendo!,2018-08-14 00:00:00,2018-08-16 13:35:25
+review_016854,order_079720,1,,Produto não tem clareza na informação. ,2017-04-21 00:00:00,2017-04-22 13:34:04
+review_016933,order_072624,5,,,2017-12-05 00:00:00,2017-12-08 14:27:18
+review_016933,order_080674,5,,,2017-12-05 00:00:00,2017-12-08 14:27:18
+review_017449,order_078361,5,,,2018-02-04 00:00:00,2018-02-04 19:19:52
+review_017663,order_081966,5,Compra 5 estrelas.,Atendimento de primeiro mundo. Fiquei muito satisfeita.,2018-06-26 00:00:00,2018-06-26 22:01:45
+review_017877,order_093962,4,,,2017-05-23 00:00:00,2017-05-24 18:12:34
+review_017900,order_071178,5,,,2017-02-07 00:00:00,2017-02-10 02:19:47
+review_018009,order_084937,5,,,2018-02-01 00:00:00,2018-02-01 22:22:04
+review_018661,order_081916,1,,"Comprei 2 capas de travesseiro e um de colchão, mas chegou apenas 1 capa de travesseiro",2017-12-22 00:00:00,2017-12-22 21:38:48
+review_018707,order_007841,5,,Produto lindo e de ótima qualidade!,2017-11-01 00:00:00,2017-11-18 12:41:12
+review_019112,order_090156,5,,,2017-10-11 00:00:00,2017-10-12 00:09:17
+review_019112,order_018552,5,,,2017-10-11 00:00:00,2017-10-12 00:09:17
+review_019178,order_037299,5,Blend nosso de cada dia,"Produto chegou rapidamente. Blend é um pouco caro mas realmente funciona, to no segundo frasco e percebo bons resultados. Minha barba nunca foi falha, mas agora cresce mais rapidamente e grossamente.",2018-07-06 00:00:00,2018-07-09 13:03:36
+review_019186,order_063721,4,,,2018-01-27 00:00:00,2018-01-28 17:11:52
+review_019359,order_054232,4,,,2017-11-17 00:00:00,2017-11-17 16:26:39
+review_019359,order_051720,4,,,2017-11-17 00:00:00,2017-11-17 16:26:39
+review_019402,order_002019,5,,"Fiz a compra de duas peças mas chegou só uma, sendo que consta na nota duas peças entregues.",2017-06-22 00:00:00,2017-06-23 16:00:02
+review_019487,order_031804,3,,,2017-04-06 00:00:00,2017-04-09 05:40:36
+review_019790,order_053197,4,,,2017-08-24 00:00:00,2017-08-27 23:59:08
+review_019964,order_009848,5,,,2017-09-01 00:00:00,2017-09-04 19:55:48
+review_020178,order_067686,5,,,2017-08-05 00:00:00,2017-08-08 00:14:07
+review_020650,order_030230,3,,,2017-02-25 00:00:00,2017-03-09 00:30:12
+review_020650,order_076113,3,,,2017-02-25 00:00:00,2017-03-09 00:30:12
+review_021127,order_031081,5,,,2018-06-08 00:00:00,2018-06-10 23:29:35
+review_021127,order_054184,5,,,2018-06-08 00:00:00,2018-06-10 23:29:35
+review_021244,order_098725,3,,,2018-06-27 00:00:00,2018-07-02 16:48:41
+review_021645,order_038131,4,,,2018-05-17 00:00:00,2018-05-23 17:55:16
+review_021665,order_009939,5,,,2017-08-17 00:00:00,2017-08-20 22:16:12
+review_021976,order_007443,5,,"Adorei,pena que as contas são muito miudas
+",2018-04-17 00:00:00,2018-04-19 23:51:32
+review_022003,order_085145,4,,,2017-10-17 00:00:00,2017-10-19 18:54:31
+review_022333,order_046162,5,,,2018-02-07 00:00:00,2018-02-07 23:27:17
+review_023394,order_068339,4,recomendo,,2018-05-15 00:00:00,2018-05-24 12:48:41
+review_023627,order_011912,1,,"A entrega esta em atraso e eu preciso da para p. O dia 20,02 e a mesma ainda nao chegou.. se passar do dia 20, n vou querer mais o produto!",2018-02-16 00:00:00,2018-02-16 11:02:16
+review_024083,order_018111,5,,,2018-07-31 00:00:00,2018-08-01 01:52:18
+review_024873,order_078546,5,,,2017-09-21 00:00:00,2017-09-22 01:35:25
+review_024938,order_042605,5,,,2018-03-15 00:00:00,2018-03-15 20:36:04
+review_025318,order_031281,5,,,2018-07-26 00:00:00,2018-07-30 10:10:56
+review_025421,order_058330,4,,"A loja e seria e rápida, quanto ao produto não sei dizer porque vou dar de presente no dias das crianças.",2017-09-12 00:00:00,2017-09-13 11:07:01
+review_025841,order_076298,4,,,2017-12-27 00:00:00,2017-12-29 21:04:55
+review_025846,order_096869,5,,,2017-03-25 00:00:00,2017-03-27 21:53:04
+review_025925,order_004466,5,,,2017-08-30 00:00:00,2017-08-31 11:50:08
+review_025949,order_088555,4,,"Entrega, bem antes do prazo",2017-12-14 00:00:00,2017-12-15 00:14:15
+review_026135,order_097869,5,,,2018-03-22 00:00:00,2018-03-22 21:47:51
+review_026267,order_065355,1,,Não recebi o produto.,2017-11-05 00:00:00,2017-11-05 11:01:40
+review_026453,order_005833,4,,,2017-09-07 00:00:00,2017-09-08 01:18:20
+review_027155,order_067993,3,,,2018-02-09 00:00:00,2018-02-11 23:24:35
+review_027422,order_089686,5,,Produto muito bom e loja super eficiente.,2018-04-03 00:00:00,2018-04-04 00:45:04
+review_027656,order_005926,5,Gostei,Os produtos são de boa qualidade e o preço que adquiri foi excelente. ,2018-06-27 00:00:00,2018-06-30 01:48:53
+review_027656,order_068318,5,Gostei,Os produtos são de boa qualidade e o preço que adquiri foi excelente. ,2018-06-27 00:00:00,2018-06-30 01:48:53
+review_027762,order_013518,5,,,2018-08-08 00:00:00,2018-08-09 15:30:13
+review_027801,order_024380,5,,,2018-06-22 00:00:00,2018-06-27 16:21:30
+review_027826,order_015132,5,,,2017-03-11 00:00:00,2017-03-12 01:59:00
+review_028113,order_009116,5,,,2018-03-20 00:00:00,2018-03-21 00:43:31
+review_028654,order_030930,5,super recomendo,,2018-07-27 00:00:00,2018-07-28 13:35:12
+review_028669,order_017363,5,,,2017-12-29 00:00:00,2017-12-29 11:29:58
+review_029023,order_043282,5,,Perfeito!,2018-08-15 00:00:00,2018-08-24 01:06:53
+review_029125,order_084458,1,,,2017-11-18 00:00:00,2017-11-20 21:27:03
+review_029477,order_069088,5,,,2018-06-08 00:00:00,2018-06-10 21:34:17
+review_029798,order_099332,5,,,2018-05-13 00:00:00,2018-05-15 22:48:49
+review_030013,order_055967,5,,,2018-07-27 00:00:00,2018-07-29 23:48:32
+review_030057,order_060554,4,,"Como se trata de um metal precioso, vou só pedir para um especialista confirmar se é prata, mesmo.
+Obg",2018-01-08 00:00:00,2018-01-10 20:31:24
+review_030551,order_013817,5,,,2018-03-18 00:00:00,2018-03-18 22:36:49
+review_030551,order_003653,5,,,2018-03-18 00:00:00,2018-03-18 22:36:49
+review_030818,order_013817,5,,,2018-03-18 00:00:00,2018-03-18 22:37:03
+review_030849,order_035786,5,,,2017-05-31 00:00:00,2017-06-01 01:10:02
+review_031182,order_066136,5,,,2017-07-18 00:00:00,2017-07-18 20:53:28
+review_031355,order_068544,5,,,2017-11-24 00:00:00,2017-11-26 00:58:34
+review_031511,order_056115,5,,,2018-05-17 00:00:00,2018-05-20 19:26:30
+review_031673,order_008243,5,,Muito satisfeita. Entrega rapida e bom atendimento. Recomendo,2018-06-21 00:00:00,2018-06-21 08:51:58
+review_031801,order_079336,4,,,2017-11-08 00:00:00,2017-11-10 15:24:30
+review_031804,order_005665,5,,"produto chegou no prazo, em perfeitas condições.",2018-04-05 00:00:00,2018-04-11 00:12:07
+review_031805,order_073400,5,,,2018-08-22 00:00:00,2018-08-23 13:12:45
+review_031833,order_097693,5,,Tudo perfeitamente ... produto prazo e qualidade ... nota 1000,2017-10-04 00:00:00,2017-10-07 02:01:35
+review_031840,order_044862,4,Recomendo - B,"apenas um dos fones chegou com a parte de cima um pouco folgada, mais acredito que não vai influência no produto.",2018-07-26 00:00:00,2018-07-27 09:57:46
+review_032315,order_005409,5,,"Estou muito satisfeito, tanto do produto quanto a entrega, eu super recomendo ",2018-01-20 00:00:00,2018-01-22 20:31:55
+review_032367,order_051096,5,,,2018-08-15 00:00:00,2018-08-16 10:53:27
+review_032426,order_036874,4,,,2017-05-09 00:00:00,2017-05-09 21:57:21
+review_032813,order_066505,5,,,2017-11-25 00:00:00,2017-11-27 10:17:20
+review_033191,order_044120,4,,"tirando as rebarbas com uma lixa, ótimo produto",2017-12-06 00:00:00,2017-12-08 21:55:27
+review_033369,order_037655,5,tudo ok,,2018-07-06 00:00:00,2018-07-06 21:35:05
+review_033884,order_092637,1,,,2018-07-01 00:00:00,2018-07-11 20:41:18
+review_034244,order_022561,5,,,2018-07-21 00:00:00,2018-07-24 02:16:38
+review_034370,order_055067,5,bom,,2018-05-08 00:00:00,2018-05-10 14:47:45
+review_034459,order_045702,5,,Adorei,2018-01-20 00:00:00,2018-01-24 20:22:05
+review_034799,order_019561,5,,"este dourado eu adorei, ja aquele prata eu nao gostei, mas so vi que era tao ruim depois que lavei e coloquei na cama, o dourado e muito bom",2017-03-11 00:00:00,2017-03-12 03:41:54
+review_034799,order_046848,5,,"este dourado eu adorei, ja aquele prata eu nao gostei, mas so vi que era tao ruim depois que lavei e coloquei na cama, o dourado e muito bom",2017-03-11 00:00:00,2017-03-12 03:41:54
+review_034858,order_019521,5,,,2018-02-20 00:00:00,2018-02-26 15:23:24
+review_035413,order_051143,5,,,2017-08-22 00:00:00,2017-08-23 01:06:42
+review_035472,order_014472,5,,"Igualzinho o da foto, fica lindo, amei ",2018-02-25 00:00:00,2018-02-25 22:53:45
+review_035701,order_047260,5,recomendo,ESTOU MUITO SATISFEITA COM OS PRODUTOS E ATENDIMENTO.,2018-06-14 00:00:00,2018-07-11 15:40:28
+review_035760,order_077305,5,Muito rapido,Excelente!!!,2018-06-30 00:00:00,2018-07-04 16:39:46
+review_036003,order_005870,5,,"Loja excelente, entrega muito rápida.",2017-08-29 00:00:00,2017-08-30 18:16:42
+review_036184,order_082904,5,,,2018-02-06 00:00:00,2018-02-07 12:35:50
+review_036213,order_050449,5,Ótimo produto ,Achei a cortina linda e de boa qualidade.Recomendo! ,2018-08-08 00:00:00,2018-08-09 02:08:03
+review_036622,order_027522,5,,,2018-02-28 00:00:00,2018-03-05 22:22:12
+review_036676,order_010071,5,,ótimo produto entregue antes do prazo,2017-06-29 00:00:00,2017-07-02 22:14:46
+review_036676,order_075836,5,,ótimo produto entregue antes do prazo,2017-06-29 00:00:00,2017-07-02 22:14:46
+review_037362,order_081474,5,,,2018-02-17 00:00:00,2018-02-19 09:51:03
+review_037488,order_049301,1,,,2017-02-22 00:00:00,2017-02-23 14:59:27
+review_037488,order_057411,1,,,2017-02-22 00:00:00,2017-02-23 14:59:27
+review_037783,order_002277,3,,,2017-12-21 00:00:00,2017-12-26 19:48:33
+review_037793,order_027625,4,Relógio inteligente,O produto corresponde com o anúncio. Aprovado ,2018-08-03 00:00:00,2018-08-06 23:16:06
+review_037843,order_056677,4,,,2017-07-12 00:00:00,2017-07-15 15:22:06
+review_038389,order_025692,4,,,2017-09-23 00:00:00,2017-09-25 11:40:50
+review_038998,order_012680,5,,As entregas do baratheon hoje demoram muito mais que anos atrás.,2018-05-04 00:00:00,2018-05-05 12:29:30
+review_039159,order_039852,5,,,2018-01-23 00:00:00,2018-01-26 12:53:09
+review_039378,order_000865,4,Recomendo,Entrega dentro do prazo.,2018-05-05 00:00:00,2018-05-06 12:26:03
+review_040044,order_023330,1,,JÁ foi comprado enviado nas não chegou recomprado e nada previso do cod de rastreio pois com os vorreiis somente com cod vcs deverian estar acompanhando este caso mas preferem vender e não dão aten,2017-05-14 00:00:00,2017-05-16 10:00:01
+review_040087,order_013914,3,,,2017-12-17 00:00:00,2017-12-19 07:28:30
+review_040720,order_096746,5,,,2018-03-24 00:00:00,2018-03-26 23:06:44
+review_040770,order_097873,2,,Demora muito entregar. Já passou o prazo e ainda não recebi minha encomenda.,2018-03-16 00:00:00,2018-03-20 23:10:58
+review_041037,order_052155,5,,,2017-07-20 00:00:00,2017-07-22 15:33:00
+review_041037,order_055336,5,,,2017-07-20 00:00:00,2017-07-22 15:33:00
+review_041612,order_072657,4,,Deu tudo certo.,2017-05-20 00:00:00,2017-05-21 23:06:40
+review_041617,order_043916,5,,,2018-02-08 00:00:00,2018-02-11 01:08:17
+review_041757,order_047022,1,,"Não recebi o produto, pois não havia mais deste no estoque. Assim, espero re-embolso na próxima tarifa do cartão de crédito.",2017-09-15 00:00:00,2017-09-15 14:52:28
+review_041773,order_008114,5,,,2017-12-02 00:00:00,2017-12-04 10:32:10
+review_042148,order_082316,5,muito bom,eu gosto de comprar os produtos de vcs. ,2018-04-27 00:00:00,2018-04-30 12:03:32
+review_042735,order_035806,4,,,2018-01-26 00:00:00,2018-02-02 12:02:04
+review_043418,order_067583,5,,"Produto com nota fiscal, abaixo do preço da concorrência, entregue antes do prazo especificado",2017-07-21 00:00:00,2017-07-21 23:42:17
+review_043741,order_098632,5,,,2018-08-09 00:00:00,2018-08-13 12:50:32
+review_043795,order_088282,4,,,2018-08-11 00:00:00,2018-08-12 16:18:48
+review_043913,order_034051,5,Recomendo loja,produto entregue antes do prazo e em perfeitas condições,2018-05-09 00:00:00,2018-05-14 23:17:54
+review_044812,order_030770,5,,,2018-07-24 00:00:00,2018-07-25 09:02:50
+review_045276,order_067069,4,10,"A entrega foi antes do prazo previsto, observação : comprei 4 foram entregue dois , os outros dois estão a caminho!",2018-05-19 00:00:00,2018-05-21 22:37:47
+review_045584,order_044273,5,,"Muito satisfeita,entrega rápida.",2018-05-09 00:00:00,2018-05-10 22:13:28
+review_046131,order_094975,4,,,2018-03-06 00:00:00,2018-03-09 12:23:31
+review_046192,order_012927,5,,,2018-02-17 00:00:00,2018-02-19 22:18:15
+review_046580,order_053425,5,,,2017-12-23 00:00:00,2018-01-02 13:27:10
+review_046589,order_004928,4,Recomendo,Deveria ser mais barato!,2018-07-27 00:00:00,2018-07-27 20:48:55
+review_046935,order_093009,5,,,2018-03-02 00:00:00,2018-03-05 01:58:08
+review_047044,order_061796,5,,,2018-07-26 00:00:00,2018-07-27 16:01:51
+review_047109,order_043031,2,,"Na entrega veio faltando os dois assento futon que eu comprei fora do kit.
+Ou seja só entregaram os kits. Continuo aguardando o contato de vocês. ",2017-12-08 00:00:00,2017-12-10 02:12:04
+review_047539,order_094369,5,,,2017-02-11 00:00:00,2017-02-11 11:01:13
+review_047741,order_040722,1,,"Devolvi as toalhas, porque não foi o que esperava em relação a qualidade do produto a entrega e assistência da baratheon estão de parabéns portanto comprei outros jogos de toalhas",2017-08-13 00:00:00,2017-08-15 11:24:55
+review_047880,order_077538,5,,"Pena que é de plastico,achei que fosse de ferro.",2018-04-26 00:00:00,2018-04-27 00:05:00
+review_047954,order_080827,5,,,2017-06-03 00:00:00,2017-06-04 00:25:57
+review_048073,order_020529,4,Muito bom,,2018-06-14 00:00:00,2018-06-15 18:29:53
+review_048248,order_052914,5,,Melhor loja para se comprar produtos. .Entrega rápida,2017-04-29 00:00:00,2017-04-30 01:18:40
+review_048421,order_033156,5,,,2017-10-07 00:00:00,2017-10-08 00:31:33
+review_048596,order_096714,5,,,2018-06-27 00:00:00,2018-07-02 17:57:41
+review_048725,order_068278,5,,,2018-04-12 00:00:00,2018-04-13 00:28:10
+review_048871,order_083246,1,,"Não recebi o produto , e não tive nenhum retorno da loja para saber do produto .",2018-03-24 00:00:00,2018-03-24 12:46:30
+review_049131,order_096357,5,,,2018-08-07 00:00:00,2018-08-07 19:43:42
+review_049230,order_064226,5,Excelente!,Excelente!,2018-05-09 00:00:00,2018-05-10 00:17:24
+review_049649,order_008841,5,Muito bom ,,2018-08-28 00:00:00,2018-08-28 23:55:11
+review_050260,order_053731,4,,,2018-01-24 00:00:00,2018-01-25 11:13:12
+review_050515,order_052405,5,,,2018-08-29 00:00:00,2018-09-01 15:54:28
+review_050744,order_031404,5,,,2017-11-04 00:00:00,2017-11-07 06:31:26
+review_050760,order_049213,5,,,2018-04-11 00:00:00,2018-04-16 22:31:31
+review_051115,order_063244,5,,,2017-11-01 00:00:00,2017-11-03 12:18:37
+review_051366,order_057897,5,,Obrigado pelo produto minha mãe gostou MT ,2018-04-24 00:00:00,2018-04-24 21:13:27
+review_051428,order_054087,5,super recomendo,recebido antes do prazo,2018-08-30 00:00:00,2018-08-31 23:46:01
+review_051531,order_029334,1,,O site é bom mas não recebi todos produtos.,2018-03-21 00:00:00,2018-03-22 23:51:47
+review_051531,order_020734,1,,O site é bom mas não recebi todos produtos.,2018-03-21 00:00:00,2018-03-22 23:51:47
+review_051597,order_086424,3,,,2017-08-03 00:00:00,2017-08-04 18:34:32
+review_051752,order_024234,4,,,2017-06-09 00:00:00,2017-06-10 00:58:13
+review_051790,order_093294,4,,,2018-04-12 00:00:00,2018-04-14 20:59:33
+review_052105,order_079871,5,,,2018-01-24 00:00:00,2018-01-24 18:40:39
+review_052240,order_095489,5,,"Adorei, a minha compra foi entregue bem antes do prazo estimado pela loja e não tive problemas nenhum com o produto. ",2017-12-17 00:00:00,2017-12-18 11:47:18
+review_053015,order_051888,5,,,2017-03-24 00:00:00,2017-03-24 12:53:17
+review_053134,order_015959,5,,"melhor do que eu esperava,podem comprar",2017-10-12 00:00:00,2017-10-13 19:56:32
+review_053271,order_008209,3,,"A entrega demorou por conta de um problema com os correios, avisado pela lannister.com. Contudo , o lojista não respondeu às mensagens enviadas. No fim deu tudo certo.",2018-04-03 00:00:00,2018-04-05 21:53:30
+review_053331,order_023239,5,,"tudo certo, entrega rapida e produto de boa qualidade",2017-03-12 00:00:00,2017-03-15 15:19:10
+review_053338,order_047868,4,,,2018-07-22 00:00:00,2018-07-26 01:08:48
+review_053471,order_061445,5,,Produto entregue antes do prazo previso,2017-11-17 00:00:00,2017-11-18 10:53:00
+review_053760,order_004173,5,,,2017-05-26 00:00:00,2017-05-27 09:11:25
+review_053800,order_009069,5,,,2018-01-31 00:00:00,2018-02-02 23:37:54
+review_054015,order_032278,5,Produto muito bom.,,2018-06-21 00:00:00,2018-06-24 20:43:00
+review_054051,order_013865,2,DEMOROU MUITO,APESAR DA DEMORA PRODUTO BOM,2018-06-22 00:00:00,2018-06-23 02:42:41
+review_054141,order_058219,4,,,2018-05-03 00:00:00,2018-05-08 17:17:44
+review_054609,order_031924,5,,,2017-08-04 00:00:00,2017-08-07 00:35:08
+review_054609,order_095269,5,,,2017-08-04 00:00:00,2017-08-07 00:35:08
+review_054873,order_042660,5,,,2017-10-18 00:00:00,2017-10-19 11:32:52
+review_055043,order_015420,5,Excelente,"Ótimo, indicado!!!",2018-08-09 00:00:00,2018-08-09 23:05:33
+review_055207,order_086616,5,,,2017-10-04 00:00:00,2017-10-05 12:58:06
+review_056074,order_074467,5,,"Adorei comprar com vcs, produto excelente, chegou 10 dias antes do prazo estabelecido",2018-04-04 00:00:00,2018-04-06 23:03:56
+review_056252,order_070334,5,,,2018-01-25 00:00:00,2018-01-28 12:48:32
+review_057219,order_030230,3,,,2017-02-25 00:00:00,2017-03-09 00:30:40
+review_057219,order_076113,3,,,2017-02-25 00:00:00,2017-03-09 00:30:40
+review_057402,order_088603,5,,,2017-12-12 00:00:00,2017-12-15 02:38:54
+review_057587,order_064968,4,,Eu recomendo a compra fiquei satisfeito!,2017-03-07 00:00:00,2017-03-08 22:14:55
+review_057841,order_082599,4,,"Valor adequado para o produto. Só deixo a dica que se colocassem uns chaveiros de emoji ficaria perfeita. 
+O frete por ser enviado pelo sedex PP que é uma das postagens mais baratas poderia ser baixa",2018-03-07 00:00:00,2018-03-08 16:23:49
+review_058219,order_068850,5,,"Entrega rápida e produto certinho. 
+Obrigada!",2017-12-22 00:00:00,2017-12-22 19:56:09
+review_058380,order_032494,1,,,2017-06-21 00:00:00,2017-06-23 19:11:32
+review_058476,order_013347,5,Recomendo a compra nessa ,,2018-05-23 00:00:00,2018-05-23 23:53:37
+review_058510,order_075836,5,,ótimo produto e entregue dentro do prazo,2017-06-29 00:00:00,2017-07-02 22:16:15
+review_058852,order_015372,4,,O produto não era bem o que eu pensei.... Mas foi entregue de acordo com o combinado... Até mais cedo do que a data prevista ,2018-02-20 00:00:00,2018-02-21 16:56:07
+review_058860,order_033963,5,Recebi Rapidamente,"Ainda não testei o produto , mas recebi rapidamente.",2018-06-08 00:00:00,2018-06-11 13:18:23
+review_058972,order_054831,5,,,2018-02-15 00:00:00,2018-02-16 12:09:36
+review_059309,order_046327,5,,,2018-02-25 00:00:00,2018-03-05 03:34:06
+review_059377,order_077961,1,,Depois de pago e depois de 7. Entrega para 9 Dias aparece produto indisponível. Sacanagem. Só depois de 17 dias a América vê o problema depois que eu mandei 2. Email é o pedido das 12 canecas.,2017-06-14 00:00:00,2017-06-14 10:16:11
+review_059481,order_075762,4,,,2017-11-15 00:00:00,2017-11-16 15:07:47
+review_059672,order_028323,1,,Só foi entregue 01 produto e eu comprei DOIS. Onde está o outro produto?,2018-03-14 00:00:00,2018-03-21 12:07:31
+review_059695,order_018274,1,,o mesmo não tem o produto a pronta entrega não honra das datas de entrega .,2018-01-19 00:00:00,2018-02-21 19:54:24
+review_059963,order_054515,4,,,2018-04-11 00:00:00,2018-04-12 01:05:48
+review_060056,order_047043,5,,tudo ok,2017-04-20 00:00:00,2017-04-20 22:13:26
+review_060718,order_061355,4,,Ótimo produto!,2018-04-07 00:00:00,2018-04-08 01:52:59
+review_060780,order_069281,4,,,2017-06-09 00:00:00,2017-06-12 12:00:47
+review_061132,order_015132,5,,,2017-03-14 00:00:00,2017-03-15 10:43:02
+review_061132,order_036391,5,,,2017-03-14 00:00:00,2017-03-15 10:43:02
+review_061709,order_072827,4,Bom. ,Recebi o produto. É de ótima qualidade. Só o cadeado que acompanha o produto que veio com defeito. ,2018-08-08 00:00:00,2018-08-10 11:39:37
+review_061709,order_075777,4,Bom. ,Recebi o produto. É de ótima qualidade. Só o cadeado que acompanha o produto que veio com defeito. ,2018-08-08 00:00:00,2018-08-10 11:39:37
+review_062404,order_062820,4,,,2017-10-10 00:00:00,2017-10-10 15:35:54
+review_062616,order_040707,4,,,2018-08-15 00:00:00,2018-08-16 00:40:44
+review_062626,order_039019,4,,"Preço, prazo e entrega satisfatórios, além da variedade de produtos.",2017-12-19 00:00:00,2017-12-22 19:32:28
+review_062735,order_095269,5,,,2017-08-15 00:00:00,2017-08-15 19:30:45
+review_062827,order_041387,1,,"A compre foi feita no dia 27/11/17 e até o dia 31/12/17 não recebi, estou dependendo produto para finalizar a obra do banheiro.
+Total falta de respeito com consumidor nunca mais compro nessa loja.",2017-12-21 00:00:00,2017-12-31 17:44:08
+review_063207,order_014472,5,,Igualzinho o que eu pedi. Lindo,2018-02-25 00:00:00,2018-02-25 21:46:45
+review_063207,order_062298,5,,Igualzinho o que eu pedi. Lindo,2018-02-25 00:00:00,2018-02-25 21:46:45
+review_063289,order_067546,1,,Muita demora e nenhuma informação! ,2018-03-23 00:00:00,2018-03-24 01:15:13
+review_063349,order_024221,5,,muito bom,2018-02-06 00:00:00,2018-02-07 11:58:14
+review_063713,order_060277,4,,,2017-08-08 00:00:00,2017-08-09 02:41:37
+review_063735,order_026545,4,,,2017-12-09 00:00:00,2017-12-12 02:58:02
+review_064183,order_094727,5,,,2018-08-03 00:00:00,2018-08-04 03:22:37
+review_064221,order_080941,4,,,2017-08-26 00:00:00,2017-08-28 12:53:55
+review_064494,order_057634,5,,Eu comprei na cor azul e veio rosa.,2017-03-10 00:00:00,2017-03-13 01:53:49
+review_064610,order_001771,5,otimo,Sastifeito com a mercadoria e com a entrega antes do prazo parabens,2018-06-21 00:00:00,2018-06-21 21:05:25
+review_064673,order_038433,5,,,2018-06-28 00:00:00,2018-06-28 10:06:06
+review_064673,order_078136,5,,,2018-06-28 00:00:00,2018-06-28 10:06:06
+review_064823,order_083954,5,,,2017-05-09 00:00:00,2017-05-10 11:57:08
+review_064836,order_033450,5,,,2018-04-11 00:00:00,2018-04-12 22:55:21
+review_065141,order_090040,5,otimo,,2018-07-14 00:00:00,2018-07-16 14:16:07
+review_066589,order_066607,5,,,2018-03-10 00:00:00,2018-03-12 01:53:55
+review_067255,order_015049,5,,,2017-12-09 00:00:00,2017-12-11 17:44:13
+review_067255,order_004862,5,,,2017-12-09 00:00:00,2017-12-11 17:44:13
+review_067665,order_063746,3,,,2018-03-27 00:00:00,2018-03-28 19:52:35
+review_067892,order_072071,5,,,2017-10-21 00:00:00,2017-10-22 13:42:36
+review_068231,order_020314,5,,"A entrega muito rápida, bem organizado, não deixou nada a desejar ",2018-03-21 00:00:00,2018-03-22 03:14:10
+review_068535,order_050483,3,,,2017-11-17 00:00:00,2017-11-17 16:12:16
+review_068570,order_094728,5,,Bom relogio!,2018-03-13 00:00:00,2018-03-14 01:32:05
+review_068932,order_050190,1,Não recomendo,Produto que enviaram não foi o produto comprado.,2018-06-27 00:00:00,2018-06-27 23:32:52
+review_069068,order_032886,5,,,2018-07-21 00:00:00,2018-07-23 21:35:00
+review_069522,order_040625,5,,o mouse funciona bem com o bluetooth.,2018-02-10 00:00:00,2018-02-12 16:38:51
+review_069787,order_064218,5,,,2017-08-22 00:00:00,2017-08-23 06:23:08
+review_070264,order_010075,1,,,2017-08-02 00:00:00,2017-08-03 11:28:27
+review_070383,order_035354,4,,,2017-08-30 00:00:00,2017-09-04 20:27:57
+review_070389,order_014579,5,,,2018-08-25 00:00:00,2018-08-25 20:00:03
+review_070442,order_074560,5,,,2017-11-22 00:00:00,2017-11-23 15:14:24
+review_070442,order_071148,5,,,2017-11-22 00:00:00,2017-11-23 15:14:24
+review_070486,order_013957,5,Ótimo,Ótima loja,2018-07-27 00:00:00,2018-07-27 22:25:03
+review_071040,order_059884,5,LINDISSÍMO!!,"Se eu soubesse tinha comprado o maior,pois ele é um belíssimo quadro.",2018-08-21 00:00:00,2018-08-21 22:41:39
+review_071085,order_006545,1,,"INFORMEI VIA EMAIL PARA O ATENDIMENTO DAS lannister E PARA O ATENDIMENTO DA targaryen QUE NAO RECEBI ESTA MERCADORIA , COM PRAZO VENCIDO",2017-11-16 00:00:00,2017-11-16 12:35:46
+review_071172,order_013516,5,Excelente!,Excelente!,2018-05-05 00:00:00,2018-05-06 10:57:04
+review_071266,order_052471,5,,,2017-12-19 00:00:00,2017-12-20 14:40:14
+review_071681,order_073007,3,,Eu recebi apenas um produto. O outro produto ainda não recebi.,2018-01-26 00:00:00,2018-01-26 12:08:41
+review_071713,order_034115,5,Muito bem,excelente,2018-07-21 00:00:00,2018-07-23 20:52:28
+review_071746,order_072309,5,,,2017-12-16 00:00:00,2017-12-16 04:08:42
+review_071811,order_056516,3,,,2018-04-04 00:00:00,2018-04-05 00:01:03
+review_071813,order_035323,5,,Produto ótimo ,2017-02-24 00:00:00,2017-02-25 01:41:54
+review_072002,order_089889,5,Ótimo ,Produto entregue antes do prazo.,2018-05-17 00:00:00,2018-05-20 21:53:43
+review_072657,order_058223,2,,,2018-04-17 00:00:00,2018-04-18 00:48:20
+review_072670,order_018150,3,,"quero devolver o produto, porque não supre as minhas necessidades! tenho metal no corpo e nao posso usar.",2018-01-27 00:00:00,2018-01-30 02:10:15
+review_072739,order_081442,4,,,2017-05-26 00:00:00,2017-06-01 19:10:49
+review_072900,order_023977,1,,"Ja recebi os outros produtos, que comprei junto com esse. mas esse ainda nao chegou.",2017-09-05 00:00:00,2017-09-06 11:57:27
+review_073142,order_011044,5,,,2018-08-24 00:00:00,2018-08-24 20:20:33
+review_073148,order_083272,3,,,2018-03-27 00:00:00,2018-04-01 21:58:59
+review_073323,order_087297,5,,,2018-03-29 00:00:00,2018-04-02 14:09:57
+review_073491,order_027215,4,,,2018-02-24 00:00:00,2018-02-26 11:53:40
+review_073542,order_005833,4,,,2017-09-07 00:00:00,2017-09-08 01:17:50
+review_073542,order_032354,4,,,2017-09-07 00:00:00,2017-09-08 01:17:50
+review_073563,order_033002,5,,,2017-12-01 00:00:00,2017-12-01 14:42:11
+review_073995,order_041528,5,,Ótima loja entrega é excelente,2017-09-14 00:00:00,2017-10-03 17:58:12
+review_074345,order_006509,4,,,2017-06-10 00:00:00,2017-06-12 13:56:19
+review_074386,order_017535,4,,,2017-12-29 00:00:00,2017-12-30 15:59:42
+review_074834,order_095277,1,,"Cancelei esse pedido, nem era para chegar o e-mail em questão e tenho outros 2 pedidos pendentes, com atraso na entrega, sem qualquer suporte das lannister.",2018-03-24 00:00:00,2018-03-26 15:27:19
+review_075012,order_077639,3,,,2018-07-25 00:00:00,2018-07-25 18:43:12
+review_075049,order_000596,5,,,2018-08-02 00:00:00,2018-08-03 04:55:37
+review_075105,order_070634,5,,,2017-05-23 00:00:00,2017-05-23 21:59:26
+review_075628,order_073112,5,,,2018-03-28 00:00:00,2018-03-29 11:16:27
+review_075826,order_092376,5,Chegou bem antes do prazo,Gostei da eficiência da entrega.,2018-08-21 00:00:00,2018-08-21 20:10:06
+review_076006,order_055116,5,,,2017-05-12 00:00:00,2017-05-13 21:04:58
+review_076329,order_072413,5,,"uma empresa que cumpre com prazo
+Espero que continuem assim,visando sempre o melhor para os clientes!
+
+",2018-03-13 00:00:00,2018-03-14 11:40:40
+review_076433,order_013434,5,melhor custo beneficio ,"A cortina atende todas as especificações, veio no tamanho certo, cor certa, do jeitinho da descrição. Tão boa que voltei e comprei mais duas. Recomendo.",2018-06-22 00:00:00,2018-06-26 23:15:47
+review_076952,order_048090,5,Muito bom,,2018-06-13 00:00:00,2018-06-13 21:48:28
+review_077202,order_030445,4,,,2017-08-18 00:00:00,2017-08-21 11:58:09
+review_077394,order_047484,5,,Houve problema com a entrega dos correios não entregou para a pessoa na agência mesmo com o código de rastreio e documento. Informaram que o produto não estava na unidade. ,2018-03-04 00:00:00,2018-03-05 14:00:06
+review_077665,order_060131,5,,amo lannister ,2017-10-02 00:00:00,2017-10-19 18:25:12
+review_077756,order_021387,5,,,2018-03-27 00:00:00,2018-04-05 15:21:53
+review_078176,order_091920,1,,,2017-12-06 00:00:00,2017-12-06 09:26:36
+review_078560,order_008308,5,,,2018-06-01 00:00:00,2018-06-01 15:14:23
+review_078664,order_038864,3,,So acho que deveria ser entregue todos juntos.,2017-08-04 00:00:00,2017-08-05 00:14:30
+review_078664,order_036400,3,,So acho que deveria ser entregue todos juntos.,2017-08-04 00:00:00,2017-08-05 00:14:30
+review_079039,order_054828,2,,,2018-03-18 00:00:00,2018-03-18 11:53:21
+review_079353,order_094872,1,,Não vou recomendar a loja porque não recebi o produto e consta que ainda está aguardando nota fiscal. A previsão era dia 16/02.,2018-02-18 00:00:00,2018-02-20 04:17:34
+review_079523,order_045704,5,,,2018-02-06 00:00:00,2018-02-07 10:14:28
+review_079610,order_046848,5,,"esta faltando o outro cor dourado, quando chegara?",2017-03-03 00:00:00,2017-03-04 03:21:46
+review_079610,order_019561,5,,"esta faltando o outro cor dourado, quando chegara?",2017-03-03 00:00:00,2017-03-04 03:21:46
+review_079749,order_071148,5,,"Muito linda tecido excelente recomendado.
+A única coisa que não gostei foi do valor dos fretes. Podia ser frete único e mais em conta.",2017-11-22 00:00:00,2017-11-23 14:53:55
+review_079749,order_074560,5,,"Muito linda tecido excelente recomendado.
+A única coisa que não gostei foi do valor dos fretes. Podia ser frete único e mais em conta.",2017-11-22 00:00:00,2017-11-23 14:53:55
+review_079770,order_028418,1,,,2018-03-23 00:00:00,2018-03-29 13:32:46
+review_079864,order_010332,1,,"Loja péssima! Demorou chegar, veio o produto errado e quantidade errada.
+Desculpe mas essa loja só fez coisas erradas. Entrei em contato com vocês e pedi meu dinheiro de volta. E quero devolver o pro",2018-03-09 00:00:00,2018-03-09 22:49:25
+review_080029,order_010214,5,Recebi no prazo,Tudo Certinho !,2018-08-10 00:00:00,2018-08-15 11:43:44
+review_080470,order_098669,5,,"produto enviado corretamente, inclusive antes do prazo estabelecido, estou muito satisfeita.
+Obrigada",2018-01-13 00:00:00,2018-01-14 21:31:19
+review_080567,order_027800,5,,,2018-02-08 00:00:00,2018-02-14 10:59:02
+review_081601,order_036660,5,,,2018-08-18 00:00:00,2018-08-20 12:16:55
+review_082605,order_096930,4,,,2018-02-08 00:00:00,2018-02-14 15:04:26
+review_082735,order_010831,5,,,2017-07-25 00:00:00,2017-07-26 09:53:38
+review_082805,order_056815,5,,,2017-07-04 00:00:00,2017-07-10 21:54:23
+review_083133,order_088498,4,,,2017-10-19 00:00:00,2017-10-19 14:55:02
+review_084075,order_021248,5,,"Como sempre, a lannister entregando dentro do prazo (neste caso antes). Muito obrigada! ",2018-01-20 00:00:00,2018-01-22 11:53:19
+review_084149,order_067946,5,Ótimo ,,2018-06-19 00:00:00,2018-06-20 00:08:42
+review_084303,order_099225,5,,"Me surpreendi com a qualidade do produto e seriedade da loja. Só achei que demorou muito a entrega, mas o produto e excelente ",2017-12-02 00:00:00,2017-12-07 00:09:45
+review_084694,order_083926,5,Rápido e preciso.,Excelente loja...envio rápido e produto certo.,2018-05-16 00:00:00,2018-05-17 01:21:52
+review_085000,order_094908,5,,,2018-05-24 00:00:00,2018-05-26 17:24:07
+review_085090,order_045915,5,,"Beleza ,não tenho o que reclamar da loja,tudo que comprei até agora deu certo.Recomendo para qualquer pessoa que queira comprar.",2017-09-20 00:00:00,2017-09-26 14:03:26
+review_085339,order_019053,5,,,2018-03-20 00:00:00,2018-03-25 19:30:47
+review_085376,order_082632,3," BOM , MENOS LOGISTICA",comprei um relogio de 730e paguei 25 de frete e a loja envia PELO CORREIO E AINDA VIA PAC.,2018-04-28 00:00:00,2018-05-01 02:52:23
+review_085444,order_030263,5,,Chegou certinho antes do prazo recomendo a todos ,2017-05-20 00:00:00,2017-05-22 12:47:44
+review_085845,order_001338,5,,,2017-12-31 00:00:00,2018-01-03 13:12:32
+review_085865,order_059850,1,,,2018-08-09 00:00:00,2018-08-11 17:14:40
+review_086084,order_074889,5,,,2018-02-17 00:00:00,2018-02-19 19:29:19
+review_086084,order_041008,5,,,2018-02-17 00:00:00,2018-02-19 19:29:19
+review_086770,order_026345,5,,,2018-02-20 00:00:00,2018-02-21 11:10:44
+review_086842,order_014360,5,,,2017-11-11 00:00:00,2017-11-13 23:53:32
+review_086887,order_004894,5,,,2017-07-22 00:00:00,2017-07-30 21:33:54
+review_087030,order_062396,5,,,2018-08-25 00:00:00,2018-08-25 14:46:59
+review_087769,order_081471,5,,,2018-02-01 00:00:00,2018-02-01 10:13:59
+review_087890,order_010056,5,,,2018-08-08 00:00:00,2018-08-15 13:29:48
+review_088761,order_078182,5,,Obrigado,2018-01-22 00:00:00,2018-01-22 13:49:47
+review_088974,order_078958,4,,,2017-10-31 00:00:00,2017-11-01 10:08:55
+review_089202,order_072871,5,,,2017-12-29 00:00:00,2018-01-02 10:17:43
+review_089320,order_093045,5,,,2018-06-06 00:00:00,2018-06-07 01:47:15
+review_089627,order_072770,5,,,2017-11-22 00:00:00,2017-11-22 14:27:00
+review_089699,order_084487,4,Amei ,Só achei os braços estreito n cobre todo braço do sofá ,2018-07-07 00:00:00,2018-07-08 02:21:30
+review_090013,order_088095,1,,depois de pago o boleto sem o produto tem que ficar ate o praso de entrega pra saber que nao tem o que comprou. ,2018-03-18 00:00:00,2018-03-18 19:58:05
+review_090583,order_030790,5,,,2018-04-12 00:00:00,2018-04-13 11:41:43
+review_090583,order_093294,5,,,2018-04-12 00:00:00,2018-04-13 11:41:43
+review_090666,order_009021,5,,,2017-05-28 00:00:00,2017-05-29 20:45:47
+review_090760,order_012380,5,,Muito bom,2017-12-27 00:00:00,2017-12-27 18:20:17
+review_091097,order_019644,5,,"ótima compra, chegou antes do prazo",2017-09-27 00:00:00,2017-09-29 19:59:24
+review_091269,order_062268,1,,"Disseram q foi entregue sem sucesso sendo q no dia ninguem tinha saído de casa, eu tive q abrir uma reclamação não loja para o produto ser reenviado.",2017-12-21 00:00:00,2017-12-23 11:15:28
+review_091269,order_038607,1,,"Disseram q foi entregue sem sucesso sendo q no dia ninguem tinha saído de casa, eu tive q abrir uma reclamação não loja para o produto ser reenviado.",2017-12-21 00:00:00,2017-12-23 11:15:28
+review_091291,order_054124,5,,,2017-08-29 00:00:00,2017-08-29 21:01:13
+review_091391,order_090704,4,,,2017-11-17 00:00:00,2017-11-20 09:24:35
+review_091790,order_065101,5,,,2017-12-27 00:00:00,2017-12-28 10:16:06
+review_092033,order_017743,3,,,2017-09-01 00:00:00,2017-09-03 20:57:18
+review_092038,order_082180,5,,,2018-07-21 00:00:00,2018-07-24 02:17:01
+review_092516,order_051307,5,,Excelente,2017-02-09 00:00:00,2017-02-09 13:01:13
+review_092874,order_081249,5,,,2017-11-29 00:00:00,2017-11-29 15:42:28
+review_092897,order_013779,5,,,2018-08-22 00:00:00,2018-08-24 16:22:43
+review_093003,order_033053,5,,,2018-08-28 00:00:00,2018-08-28 19:39:55
+review_093190,order_085027,5,,"Gostei muito do produto,super recomendo....",2018-08-12 00:00:00,2018-08-12 21:33:04
+review_093999,order_099277,1,,Comprei um patinete pra minha filha recebi uma escova rotatória to aguardando até agora a troca e nada ,2017-09-20 00:00:00,2017-09-21 08:55:27
+review_094418,order_083566,5,,,2018-08-28 00:00:00,2018-08-29 01:40:06
+review_094664,order_087146,5,,,2017-12-11 00:00:00,2017-12-18 11:42:31
+review_094664,order_033365,5,,,2017-12-11 00:00:00,2017-12-18 11:42:31
+review_094881,order_064708,1,,,2017-12-24 00:00:00,2017-12-24 09:05:24
+review_095225,order_088075,3,,Eu esperva que o produto fosse um pouco melhor.,2017-12-28 00:00:00,2018-01-02 14:36:47
+review_095326,order_016378,5,,"Quadro muito bonito pra quarto , eu
+Super recomendo ",2018-04-10 00:00:00,2018-04-10 22:00:08
+review_095486,order_024033,5,,,2018-08-21 00:00:00,2018-08-24 21:28:26
+review_096769,order_098648,5,,,2017-05-23 00:00:00,2017-05-23 21:59:58
+review_096775,order_073701,1,,"O produto era pra ser entregue dia 19/02. E até agora não tive nenhuma satisfação sobre o produto, ou sobre a entrega. Acho uma falta de respeito com o cliente.",2018-02-21 00:00:00,2018-02-23 14:43:49
+review_097087,order_030241,5,,,2017-12-28 00:00:00,2017-12-29 00:01:40
+review_097595,order_041008,5,,,2018-02-17 00:00:00,2018-02-19 19:28:59
+review_097595,order_074889,5,,,2018-02-17 00:00:00,2018-02-19 19:28:59
+review_097693,order_066383,5,,,2018-01-04 00:00:00,2018-01-04 17:14:17
+review_098197,order_049510,4,,"Capinha perfeta, como uma luva. Pelicula não ficou perfeita, com algumas bolhas de ar nos extremos",2017-10-26 00:00:00,2017-10-26 15:32:45
+review_098279,order_034109,1,,"Solicitei Toner CB436A e recebi Toner CB435A, preciso que façam a troca do produto.",2017-08-19 00:00:00,2017-08-21 13:11:31

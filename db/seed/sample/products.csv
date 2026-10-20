@@ -1,26 +1,403 @@
 product_id,product_name,product_category_name,product_name_lenght,product_description_lenght,product_photos_qty,product_weight_g,product_length_cm,product_height_cm,product_width_cm
-product_000,Modern Keyboard,informatica_acessorios,38,1306,3,206,53,15,32
-product_001,Essential Water Bottle,esporte_lazer,23,1663,3,1774,10,29,11
-product_002,Portable Yoga Mat,esporte_lazer,12,1594,4,8885,12,29,10
-product_003,Essential Laptop Stand,informatica_acessorios,33,1282,2,1239,7,19,23
-product_004,Deluxe Chair,moveis_decoracao,34,669,4,6077,15,28,27
-product_005,Everyday Headphones,eletronicos,54,1499,6,1269,43,15,39
-product_006,Classic Cable,eletronicos,34,652,6,3698,48,25,8
-product_007,Compact Headphones,eletronicos,35,648,1,3556,41,25,18
-product_008,Modern Diffuser,beleza_saude,19,642,2,4140,52,40,39
-product_009,Pro Resistance Band,esporte_lazer,47,917,3,3693,13,37,36
-product_010,Compact Chair,moveis_decoracao,19,1385,2,7016,43,9,29
-product_011,Sport Diffuser,beleza_saude,43,614,5,288,48,12,39
-product_012,Everyday Yoga Mat,esporte_lazer,17,701,4,2691,34,5,21
-product_013,Classic Laptop Stand,informatica_acessorios,16,1882,6,4989,58,37,17
-product_014,Portable Charger,eletronicos,44,1694,5,109,43,25,36
-product_015,Premium Cushion,moveis_decoracao,29,590,1,4046,41,10,10
-product_016,Premium Mirror,beleza_saude,18,1451,4,2805,21,38,32
-product_017,Elegant Charger,eletronicos,55,738,4,6218,33,38,33
-product_018,Deluxe Shelf,moveis_decoracao,14,792,1,3870,42,19,5
-product_019,Pro Lamp,moveis_decoracao,13,568,1,614,60,26,9
-product_020,Deluxe Webcam,informatica_acessorios,52,1094,2,8934,13,35,20
-product_021,Modern Mirror,beleza_saude,16,298,6,7162,27,32,31
-product_022,Pro Brush Set,beleza_saude,53,1438,6,1712,8,30,26
-product_023,Deluxe Shelf,moveis_decoracao,22,1198,4,2396,32,16,22
-product_024,Deluxe Brush Set,beleza_saude,38,1754,5,1704,8,39,5
+prod_00196,Compact Air Freshener,automotivo,59,570,5,1150,55,12,35
+prod_00202,Elegant Phone Mount,automotivo,59,651,5,10600,78,4,47
+prod_00379,Deluxe Belt,fashion_bolsas_e_acessorios,32,272,4,150,16,6,11
+prod_00602,Everyday Accessory,,,,,100,16,7,11
+prod_00631,Portable Blanket,cama_mesa_banho,58,402,1,1650,31,9,31
+prod_00722,Classic Handbag,fashion_bolsas_e_acessorios,52,1383,4,750,36,18,36
+prod_00776,Premium Handbag,fashion_bolsas_e_acessorios,54,1399,1,300,16,2,11
+prod_00889,Elegant Blanket,cama_mesa_banho,39,161,2,350,25,8,19
+prod_01153,Classic Towel Set,cama_mesa_banho,46,434,1,600,34,17,28
+prod_01195,Sport Mixer,eletrodomesticos,57,149,1,2400,32,37,22
+prod_01234,Portable Chair,moveis_decoracao,52,252,1,1400,20,20,20
+prod_01321,Elegant Wallet,relogios_presentes,33,932,1,396,18,11,14
+prod_01323,Rustic Baby Blanket,bebes,55,1627,1,750,20,13,13
+prod_01353,Elegant Food Bowl,pet_shop,25,1399,1,165,16,10,11
+prod_01511,Rustic Water Bottle,esporte_lazer,31,1479,3,150,23,7,12
+prod_01532,Compact Water Bottle,esporte_lazer,32,282,2,4450,60,15,15
+prod_01559,Premium Watch,relogios_presentes,57,907,5,500,16,11,17
+prod_01624,Elegant Set,,,,,10750,34,20,30
+prod_01884,Compact Plush Toy,brinquedos,33,628,1,1310,60,12,24
+prod_01940,Deluxe Cushion,moveis_decoracao,48,409,4,1450,24,18,18
+prod_01951,Classic Water Bottle,esporte_lazer,55,365,3,150,18,6,15
+prod_02005,Elegant Watch,relogios_presentes,54,574,1,425,18,11,11
+prod_02058,Modern Blanket,cama_mesa_banho,60,189,1,1350,46,2,36
+prod_02242,Compact Puzzle,brinquedos,47,994,1,900,50,40,35
+prod_02246,Sport Perfume,perfumaria,59,509,6,350,16,5,15
+prod_02371,Classic Water Bottle,esporte_lazer,27,521,1,1813,30,13,28
+prod_02456,Deluxe Belt,fashion_bolsas_e_acessorios,63,627,4,100,16,5,11
+prod_02641,Deluxe Frame,moveis_decoracao,54,184,2,8450,40,32,40
+prod_02677,Premium Mouse,informatica_acessorios,39,1423,3,375,17,11,14
+prod_02681,Premium Water Bottle,esporte_lazer,42,660,1,2150,41,10,35
+prod_02772,Premium Mirror,beleza_saude,58,790,4,800,20,7,20
+prod_02788,Pro Organizer,utilidades_domesticas,54,649,1,3800,35,28,32
+prod_02795,Essential Brush Set,beleza_saude,48,575,1,100,20,15,15
+prod_02888,Deluxe Yoga Mat,esporte_lazer,44,3674,1,1400,31,36,31
+prod_02911,Compact Brush Set,beleza_saude,46,2729,1,1550,27,9,18
+prod_03003,Elegant Gift Box,relogios_presentes,50,401,4,200,16,2,11
+prod_03019,Modern Shelf,moveis_decoracao,23,323,1,2000,25,50,25
+prod_03037,Deluxe Keyboard,informatica_acessorios,58,565,2,250,16,5,11
+prod_03099,Elegant Pen Set,papelaria,59,241,6,7550,60,20,29
+prod_03110,Pro Book Set,livros_interesse_geral,42,1032,2,600,16,25,11
+prod_03198,Modern Blender,eletrodomesticos,60,210,3,300,27,13,17
+prod_03223,Portable Keychain,relogios_presentes,60,193,3,200,16,2,11
+prod_03237,Pro Cushion,moveis_decoracao,52,130,1,9050,60,30,30
+prod_03243,Rustic Storage Bin,utilidades_domesticas,49,186,1,800,30,30,20
+prod_03244,Deluxe Bed Sheet,cama_mesa_banho,55,428,1,150,16,11,11
+prod_03439,Rustic Novelty Item,cool_stuff,60,482,3,833,17,12,16
+prod_03509,Pro Diffuser,beleza_saude,36,121,1,100,20,15,15
+prod_03536,Sport Tool Set,construcao_ferramentas_construcao,57,422,4,200,42,12,12
+prod_03664,Compact Item,casa_construcao,57,915,5,9950,52,22,52
+prod_03802,Rustic Laptop Stand,informatica_acessorios,59,1095,1,350,19,19,13
+prod_03805,Premium Kettle,utilidades_domesticas,52,1232,2,1200,29,33,29
+prod_03890,Pro Water Bottle,esporte_lazer,42,636,1,1700,41,10,35
+prod_03910,Classic Lamp,moveis_decoracao,56,1892,6,1550,69,11,11
+prod_03932,Classic Bundle,alimentos_bebidas,58,798,1,200,31,15,26
+prod_03963,Rustic Organizer Case,beleza_saude,58,1725,1,2500,19,19,33
+prod_04014,Elegant Handbag,fashion_bolsas_e_acessorios,48,382,5,150,16,9,11
+prod_04174,Everyday Lamp,moveis_decoracao,52,745,4,18200,40,60,40
+prod_04240,Pro Bed Sheet,cama_mesa_banho,55,105,1,500,20,10,15
+prod_04398,Classic Bed Sheet,cama_mesa_banho,59,95,1,500,20,10,15
+prod_04551,Modern Monitor Stand,moveis_escritorio,26,989,1,16125,81,7,83
+prod_04608,Portable Fragrance Set,perfumaria,24,435,3,350,25,15,15
+prod_04647,Deluxe Toy Car,brinquedos,53,996,7,165,19,12,17
+prod_04835,Compact Bib,bebes,53,1286,4,200,16,6,11
+prod_04896,Elegant Set,agro_industria_e_comercio,22,353,1,800,20,20,20
+prod_04942,Everyday Lamp,moveis_decoracao,56,184,2,900,40,8,40
+prod_05032,Compact Bed Sheet,cama_mesa_banho,58,2400,2,10800,54,27,36
+prod_05383,Classic Backpack,esporte_lazer,38,2007,4,300,19,12,12
+prod_05429,Essential Pillow,cama_mesa_banho,57,332,2,12100,56,21,59
+prod_05440,Compact Gadget,cool_stuff,54,995,1,4475,44,24,31
+prod_05513,Classic Phone Mount,automotivo,58,623,1,3100,70,8,70
+prod_05552,Deluxe Pillow,cama_mesa_banho,60,744,2,8350,50,27,38
+prod_05600,Pro Car Mat,automotivo,46,273,1,275,21,54,16
+prod_05627,Sport Kettle,utilidades_domesticas,43,357,1,217,18,5,14
+prod_05693,Sport Brush Set,beleza_saude,59,492,3,250,22,10,18
+prod_05702,Compact Cushion,moveis_decoracao,53,553,1,1400,35,9,25
+prod_05795,Deluxe Cable,eletronicos,57,410,2,100,18,20,16
+prod_05798,Pro Pet Bed,pet_shop,29,821,2,700,16,20,16
+prod_06089,Classic Rattle,bebes,57,475,1,500,55,14,43
+prod_06099,Classic Kit,artes,57,851,1,1500,65,6,48
+prod_06242,Elegant Organizer Case,beleza_saude,57,2026,3,100,11,11,11
+prod_06301,Sport Organizer,utilidades_domesticas,54,354,1,1250,30,30,30
+prod_06425,Classic Blanket,cama_mesa_banho,56,105,1,550,20,10,15
+prod_06456,Compact Puzzle,brinquedos,58,419,5,1700,30,35,25
+prod_06652,Sport Blanket,cama_mesa_banho,60,268,1,2650,46,8,38
+prod_06682,Elegant Novelty Item,cool_stuff,52,847,3,1200,42,25,15
+prod_06707,Pro Water Bottle,esporte_lazer,56,635,1,163,16,9,12
+prod_06720,Everyday Fragrance Set,perfumaria,23,1035,1,1000,16,16,16
+prod_06749,Modern Laptop Stand,informatica_acessorios,47,294,1,278,16,9,11
+prod_06834,Modern Backpack,esporte_lazer,47,1582,1,12000,105,46,46
+prod_06899,Portable Tool Set,construcao_ferramentas_construcao,28,271,2,5600,46,15,39
+prod_06918,Premium Keyboard,informatica_acessorios,45,267,1,167,16,12,13
+prod_06944,Pro Garden Tool Set,ferramentas_jardim,50,741,3,300,17,7,12
+prod_07080,Deluxe Garden Tool Set,ferramentas_jardim,57,366,2,1650,30,22,30
+prod_07283,Elegant Gift Box,relogios_presentes,44,322,4,250,16,2,11
+prod_07321,Deluxe Accessory,construcao_ferramentas_jardim,52,646,2,1225,45,28,28
+prod_07350,Rustic Brush Set,beleza_saude,44,108,1,400,30,15,20
+prod_07364,Classic Organizer,utilidades_domesticas,49,162,1,11500,20,50,28
+prod_07365,Rustic Garden Tool Set,ferramentas_jardim,59,341,2,1750,37,22,40
+prod_07439,Elegant Blanket,cama_mesa_banho,62,392,1,20900,45,15,30
+prod_07442,Premium Backpack,esporte_lazer,43,186,2,6250,30,25,25
+prod_07525,Classic Resistance Band,esporte_lazer,51,830,1,1600,26,26,26
+prod_07570,Sport Leash,pet_shop,53,295,3,1100,20,25,20
+prod_07704,Pro Bed Sheet,cama_mesa_banho,59,775,1,1550,32,10,28
+prod_07878,Sport Organizer,utilidades_domesticas,57,1379,4,9550,29,66,29
+prod_07904,Portable Air Freshener,automotivo,60,3136,4,100,17,10,15
+prod_07914,Sport Blanket,cama_mesa_banho,57,188,1,1100,44,2,35
+prod_08012,Classic Storage Bin,utilidades_domesticas,54,1696,6,525,18,8,14
+prod_08015,Elegant Blender,eletrodomesticos,58,967,4,100,18,8,13
+prod_08030,Rustic Frame,moveis_decoracao,59,600,1,700,25,25,25
+prod_08072,Portable Yoga Mat,esporte_lazer,57,609,1,6950,24,7,11
+prod_08088,Portable Seat Cover,automotivo,60,447,1,1500,30,20,60
+prod_08091,Compact Frame,moveis_decoracao,58,538,1,12300,56,28,40
+prod_08106,Deluxe USB Hub,informatica_acessorios,33,1084,2,200,41,2,29
+prod_08123,Sport Wallet,relogios_presentes,52,481,2,250,16,11,11
+prod_08132,Deluxe Diffuser,beleza_saude,44,519,1,700,27,9,18
+prod_08178,Pro Blanket,cama_mesa_banho,56,458,1,1860,39,12,33
+prod_08344,Compact Speaker,eletronicos,54,1497,7,700,22,6,11
+prod_08433,Portable Pen Set,papelaria,44,366,3,1500,38,30,28
+prod_08457,Premium Item,artigos_de_natal,38,1324,1,4500,50,8,45
+prod_08595,Deluxe Novelty Item,cool_stuff,58,404,1,2367,52,23,28
+prod_08721,Premium USB Hub,informatica_acessorios,58,202,1,850,32,19,19
+prod_08761,Modern Keychain,relogios_presentes,41,1159,4,350,16,14,11
+prod_08786,Sport Brush Set,beleza_saude,40,409,1,1110,19,11,18
+prod_08899,Portable Webcam,informatica_acessorios,21,181,1,917,21,15,11
+prod_08945,Essential Item,telefonia_fixa,57,2540,4,1450,20,12,22
+prod_09038,Classic Water Bottle,esporte_lazer,50,482,1,140,18,5,13
+prod_09122,Deluxe Watch,relogios_presentes,35,591,3,444,20,14,16
+prod_09220,Everyday Brush Set,beleza_saude,58,549,1,30000,55,75,61
+prod_09231,Essential Lamp,moveis_decoracao,58,600,1,650,25,25,25
+prod_09233,Elegant Seat Cover,automotivo,55,212,3,1850,20,15,20
+prod_09269,Elegant Body Spray,perfumaria,36,605,2,100,20,20,20
+prod_09278,Elegant Speaker,eletronicos,43,538,1,150,30,10,20
+prod_09502,Pro Item,bebidas,55,314,1,4400,16,25,23
+prod_09695,Portable Desk Toy,cool_stuff,55,963,2,500,45,8,49
+prod_09736,Premium Webcam,informatica_acessorios,38,1386,1,917,30,16,16
+prod_09834,Rustic Baby Blanket,bebes,40,428,2,155,18,14,21
+prod_09863,Rustic Wallet,relogios_presentes,34,333,1,316,17,13,14
+prod_09875,Premium Pillow,cama_mesa_banho,53,1023,1,1625,34,24,24
+prod_09935,Elegant Perfume,perfumaria,51,587,1,267,16,6,11
+prod_10002,Pro Item,construcao_ferramentas_jardim,57,1227,1,6200,76,28,18
+prod_10320,Essential Laptop Stand,informatica_acessorios,60,258,2,600,32,16,24
+prod_10377,Classic Air Freshener,automotivo,53,603,1,5950,65,11,65
+prod_10386,Portable Bundle,artes,48,1232,1,1700,65,6,50
+prod_10413,Everyday Notebook,papelaria,53,500,2,550,16,4,11
+prod_10512,Everyday Desk Toy,cool_stuff,54,874,1,1000,42,25,15
+prod_10514,Everyday Speaker,eletronicos,46,2285,1,150,30,10,20
+prod_10556,Compact Phone Mount,automotivo,54,383,2,100,16,10,15
+prod_10563,Deluxe Handbag,fashion_bolsas_e_acessorios,39,565,3,100,17,7,17
+prod_10600,Elegant Phone Mount,automotivo,54,580,5,5250,21,21,21
+prod_10695,Deluxe Humidifier,climatizacao,52,346,3,250,22,11,16
+prod_10841,Portable Watering Can,ferramentas_jardim,58,340,2,1500,30,22,30
+prod_10868,Classic Keychain,relogios_presentes,33,523,3,584,16,11,13
+prod_11079,Deluxe Frame,moveis_decoracao,43,149,1,500,20,10,15
+prod_11152,Elegant Resistance Band,esporte_lazer,50,2164,5,3400,33,25,28
+prod_11216,Classic Water Bottle,esporte_lazer,55,2070,1,400,16,11,12
+prod_11382,Rustic Set,fashion_roupa_infanto_juvenil,38,168,1,100,16,16,16
+prod_11686,Essential Storage Bin,utilidades_domesticas,30,723,1,275,17,19,11
+prod_11747,Rustic Piece,,,,,400,20,12,15
+prod_11767,Sport Cushion,moveis_decoracao,24,457,4,100,80,10,60
+prod_11890,Everyday Drill,construcao_ferramentas_construcao,34,686,3,150,16,6,11
+prod_11939,Deluxe Towel Set,cama_mesa_banho,57,535,1,800,45,15,35
+prod_12197,Rustic Watch,relogios_presentes,60,312,4,200,16,2,11
+prod_12201,Elegant Bottle Set,bebes,37,1556,1,700,20,20,30
+prod_12293,Premium Pillow,cama_mesa_banho,29,426,1,150,16,11,11
+prod_12407,Rustic Bed Sheet,cama_mesa_banho,34,1056,1,2630,26,21,23
+prod_12445,Essential Gadget,cool_stuff,33,897,1,1600,42,25,15
+prod_12478,Essential Wallet,fashion_bolsas_e_acessorios,55,903,1,3350,62,20,40
+prod_12509,Compact Pillow,cama_mesa_banho,58,1623,1,200,26,10,22
+prod_12577,Everyday Wallet,fashion_bolsas_e_acessorios,24,474,4,500,16,12,16
+prod_12701,Modern Kettle,utilidades_domesticas,51,1232,3,1200,29,33,29
+prod_12752,Elegant Air Freshener,automotivo,57,1166,5,1750,30,30,30
+prod_12848,Rustic Planter,ferramentas_jardim,52,1834,1,3900,31,13,13
+prod_12905,Elegant Set,alimentos_bebidas,49,835,1,800,31,15,26
+prod_13055,Essential Backpack,esporte_lazer,43,1379,1,425,17,10,15
+prod_13104,Everyday Travel Bag,malas_acessorios,53,526,2,18050,75,20,50
+prod_13158,Everyday Organizer Case,beleza_saude,43,388,1,538,24,18,19
+prod_13199,Elegant Kit,,,,,450,30,5,30
+prod_13263,Deluxe Gadget,cool_stuff,45,798,1,1500,50,40,30
+prod_13454,Essential Perfume,perfumaria,41,870,5,225,21,12,18
+prod_13485,Premium Towel Set,cama_mesa_banho,59,980,1,1400,20,5,15
+prod_13641,Classic Bundle,construcao_ferramentas_jardim,55,2039,5,235,21,7,15
+prod_13735,Deluxe Headphones,eletronicos,36,515,3,125,16,3,20
+prod_13751,Pro Set,fashion_underwear_e_moda_praia,62,594,3,200,19,9,27
+prod_13810,Compact Kettle,utilidades_domesticas,22,930,2,1683,25,22,22
+prod_13900,Elegant Rug,moveis_decoracao,60,2050,2,3000,69,11,11
+prod_14016,Essential Belt,fashion_bolsas_e_acessorios,56,198,4,150,16,16,16
+prod_14079,Premium Phone Case,telefonia,34,139,1,100,18,18,18
+prod_14094,Compact Blanket,cama_mesa_banho,57,248,1,350,30,15,30
+prod_14124,Portable Bundle,telefonia_fixa,30,679,2,3060,30,11,26
+prod_14128,Deluxe Sticky Notes,papelaria,55,850,4,325,23,17,18
+prod_14221,Essential Desk Toy,cool_stuff,55,985,1,1625,44,24,32
+prod_14272,Compact Water Bottle,esporte_lazer,48,831,1,2350,20,20,20
+prod_14327,Elegant Backpack,esporte_lazer,48,213,5,500,25,15,20
+prod_14367,Sport Wallet,relogios_presentes,35,640,1,335,17,11,16
+prod_14496,Modern Rug,moveis_decoracao,32,420,6,1067,34,12,29
+prod_14536,Premium Webcam,informatica_acessorios,59,202,1,900,35,15,15
+prod_14564,Essential Towel Set,cama_mesa_banho,32,253,1,1150,33,9,38
+prod_14587,Essential Cutting Board,utilidades_domesticas,55,354,1,200,18,10,12
+prod_14599,Deluxe Towel Set,cama_mesa_banho,59,416,1,1750,40,6,30
+prod_14605,Everyday Chair,moveis_decoracao,53,553,1,1200,35,9,25
+prod_14782,Rustic Kettle,utilidades_domesticas,44,417,1,5200,40,20,30
+prod_14788,Compact Food Bowl,pet_shop,16,1177,1,200,16,16,12
+prod_14864,Portable Storage Bin,utilidades_domesticas,59,889,2,250,20,5,16
+prod_14879,Modern Item,moveis_cozinha_area_de_servico_jantar_e_jardim,55,383,2,22150,76,46,38
+prod_14950,Rustic Rug,moveis_decoracao,58,526,1,8800,56,28,40
+prod_15492,Rustic Lamp,moveis_decoracao,60,600,1,650,25,25,25
+prod_15720,Portable Notebook,papelaria,59,246,3,7700,60,20,29
+prod_15804,Modern Water Bottle,esporte_lazer,55,1129,1,300,18,12,14
+prod_15922,Deluxe Air Purifier,climatizacao,48,263,1,20650,53,44,14
+prod_15980,Rustic Water Bottle,esporte_lazer,30,2162,1,1563,20,16,17
+prod_16004,Classic Novelty Item,cool_stuff,46,595,2,500,16,12,22
+prod_16078,Portable Diffuser,beleza_saude,56,1388,1,2200,25,27,9
+prod_16087,Deluxe Brush Set,beleza_saude,59,492,2,200,22,10,18
+prod_16122,Everyday Brush Set,beleza_saude,60,919,1,150,22,3,15
+prod_16188,Portable Charger,eletronicos,39,400,1,200,25,7,16
+prod_16206,Elegant Planner,papelaria,57,294,5,6300,38,30,28
+prod_16320,Premium Wallet,relogios_presentes,54,395,2,550,25,13,25
+prod_16326,Portable Watering Can,ferramentas_jardim,60,1251,2,800,30,10,30
+prod_16371,Sport Shelf,moveis_decoracao,59,438,1,1200,30,5,20
+prod_16438,Classic Wallet,relogios_presentes,50,578,3,250,16,2,20
+prod_16464,Pro Rattle,bebes,55,1629,1,600,20,13,13
+prod_16528,Premium Pillow,cama_mesa_banho,49,513,1,4825,51,16,36
+prod_16530,Pro Backpack,esporte_lazer,45,622,1,290,23,4,17
+prod_16601,Elegant Pen Set,papelaria,59,227,3,900,38,30,28
+prod_16693,Premium Shelf,moveis_decoracao,53,1991,2,600,60,7,14
+prod_16717,Modern Gift Box,relogios_presentes,48,1940,3,354,19,13,15
+prod_16727,Classic Cushion,moveis_decoracao,37,267,1,2750,50,50,16
+prod_16817,Modern Organizer Case,beleza_saude,59,555,1,1075,17,13,15
+prod_16903,Premium Speaker,eletronicos,56,343,1,150,19,12,16
+prod_17064,Premium Kettle,utilidades_domesticas,54,464,1,505,17,17,19
+prod_17093,Compact Bundle,moveis_sala,29,104,2,2700,47,6,47
+prod_17176,Everyday Blanket,cama_mesa_banho,55,312,1,1550,44,14,34
+prod_17220,Essential Blanket,cama_mesa_banho,51,1208,1,1100,45,8,35
+prod_17315,Premium Pen Set,papelaria,57,111,2,1450,25,55,37
+prod_17345,Premium Blanket,cama_mesa_banho,57,364,2,800,45,10,34
+prod_17390,Elegant Power Bank,telefonia,31,329,4,188,17,6,12
+prod_17508,Classic Pillow,cama_mesa_banho,57,189,1,1350,46,2,36
+prod_17621,Everyday Kettle,utilidades_domesticas,56,595,1,6850,30,30,30
+prod_17709,Rustic Keyboard,informatica_acessorios,54,1169,1,150,16,16,16
+prod_17773,Everyday Bed Sheet,cama_mesa_banho,58,189,1,1400,46,2,36
+prod_17999,Pro Diffuser,beleza_saude,33,396,4,879,31,15,24
+prod_18026,Sport Mirror,beleza_saude,60,2894,1,200,17,11,15
+prod_18221,Modern Puzzle,brinquedos,40,617,4,300,16,7,20
+prod_18398,Premium Monitor Stand,moveis_escritorio,43,1128,1,16133,63,59,25
+prod_18469,Classic Notebook,papelaria,57,921,5,6250,25,50,25
+prod_18480,Modern Fragrance Set,perfumaria,33,340,1,563,20,12,14
+prod_18602,Premium Shelf,moveis_decoracao,54,942,3,300,18,9,14
+prod_18647,Essential Pen Set,papelaria,49,241,3,6100,60,20,29
+prod_18677,Rustic Gift Box,relogios_presentes,38,1069,1,458,18,12,15
+prod_18743,Deluxe Keychain,relogios_presentes,60,992,1,308,16,11,12
+prod_18796,Modern Accessory,construcao_ferramentas_iluminacao,44,921,1,700,16,19,16
+prod_18914,Deluxe Diffuser,beleza_saude,46,407,3,1175,53,18,18
+prod_19219,Portable Laptop Stand,informatica_acessorios,33,1084,2,200,41,2,29
+prod_19612,Elegant Towel Set,cama_mesa_banho,54,564,1,700,16,10,16
+prod_19637,Sport Seat Cover,automotivo,49,546,1,6400,63,11,63
+prod_19688,Everyday Laptop Stand,informatica_acessorios,47,576,1,450,37,4,12
+prod_19743,Essential Blanket,cama_mesa_banho,54,245,1,1383,50,10,40
+prod_19854,Modern Mouse,informatica_acessorios,25,282,2,300,19,5,13
+prod_19892,Essential Brush Set,beleza_saude,57,1262,1,450,20,12,12
+prod_20028,Portable Set,moveis_cozinha_area_de_servico_jantar_e_jardim,60,660,3,30000,46,90,46
+prod_20070,Pro Perfume,perfumaria,40,871,1,83,17,8,13
+prod_20121,Essential Keychain,relogios_presentes,59,261,2,250,16,2,20
+prod_20122,Portable Towel Set,cama_mesa_banho,54,123,2,300,50,8,34
+prod_20204,Modern Sticky Notes,papelaria,54,111,3,550,28,12,12
+prod_20293,Sport Desk Toy,cool_stuff,51,516,1,5200,37,20,34
+prod_20386,Pro Blanket,cama_mesa_banho,46,352,2,900,50,11,11
+prod_20387,Pro Blanket,cama_mesa_banho,52,167,1,1900,47,7,35
+prod_20596,Deluxe Accessory,construcao_ferramentas_iluminacao,57,771,1,12000,45,35,45
+prod_20629,Everyday Towel Set,cama_mesa_banho,55,626,2,650,16,10,16
+prod_20720,Sport Laptop Stand,informatica_acessorios,31,614,2,600,19,13,20
+prod_20872,Deluxe Bed Sheet,cama_mesa_banho,60,335,3,6050,60,10,60
+prod_21081,Portable Yoga Mat,esporte_lazer,57,1176,1,2200,16,11,11
+prod_21144,Compact Planter,ferramentas_jardim,57,1123,1,2700,34,37,12
+prod_21261,Elegant Plush Toy,brinquedos,24,669,1,1050,24,29,23
+prod_21359,Essential Chair,moveis_decoracao,45,660,1,3450,23,35,35
+prod_21382,Pro Yoga Mat,esporte_lazer,52,756,1,110,19,12,14
+prod_21422,Everyday Perfume,perfumaria,44,259,2,425,23,14,17
+prod_21684,Everyday Pillow,cama_mesa_banho,57,2473,2,2500,43,8,33
+prod_21939,Compact Blanket,cama_mesa_banho,53,1156,2,2450,35,10,20
+prod_22014,Rustic Resistance Band,esporte_lazer,55,202,3,100,20,4,13
+prod_22020,Rustic Leash,pet_shop,21,1811,1,900,30,33,30
+prod_22038,Pro Toaster,eletrodomesticos,59,190,1,1250,65,8,38
+prod_22074,Deluxe Piece,fashion_calcados,35,222,5,400,29,12,23
+prod_22113,Deluxe Cushion,moveis_decoracao,44,903,6,2600,50,10,30
+prod_22153,Deluxe Phone Mount,automotivo,52,545,4,358,16,6,17
+prod_22407,Classic Backpack,esporte_lazer,37,242,2,900,60,15,15
+prod_22426,Essential Organizer,utilidades_domesticas,60,614,1,4250,30,35,30
+prod_22447,Essential Baby Blanket,bebes,60,112,1,850,30,7,30
+prod_22448,Everyday Baby Blanket,bebes,55,1681,2,600,20,13,13
+prod_22475,Sport Luggage Tag,malas_acessorios,57,674,1,22350,32,74,53
+prod_22498,Rustic Blender,eletrodomesticos,58,157,2,450,20,13,12
+prod_22513,Elegant Cutting Board,utilidades_domesticas,59,566,3,1550,29,17,23
+prod_22588,Classic Leash,pet_shop,28,641,4,150,16,9,11
+prod_22635,Classic Storage Bin,utilidades_domesticas,42,786,4,2100,53,25,20
+prod_22695,Deluxe Mouse,informatica_acessorios,24,401,1,213,18,12,13
+prod_22743,Compact Water Bottle,esporte_lazer,60,541,6,400,30,15,15
+prod_22808,Rustic Keyboard,informatica_acessorios,57,977,1,725,25,8,24
+prod_22825,Rustic Organizer Case,beleza_saude,57,2491,1,2300,27,27,20
+prod_22978,Pro Blender,eletrodomesticos,60,1014,4,150,30,10,15
+prod_23044,Classic Organizer Case,beleza_saude,59,1153,4,200,18,3,20
+prod_23326,Elegant Puzzle,brinquedos,59,249,2,1500,40,25,20
+prod_23350,Premium Cable,eletronicos,40,429,1,150,25,7,16
+prod_23517,Everyday Pillow,cama_mesa_banho,55,556,1,675,40,18,35
+prod_23585,Elegant Planter,ferramentas_jardim,30,825,1,3000,27,10,32
+prod_23661,Classic Air Freshener,automotivo,54,202,1,600,105,10,16
+prod_23671,Portable Charger,eletronicos,56,1184,3,5700,20,15,13
+prod_23885,Classic Yoga Mat,esporte_lazer,53,212,6,900,28,10,28
+prod_23939,Elegant Backpack,esporte_lazer,60,521,1,650,24,10,20
+prod_23956,Everyday Fragrance Set,perfumaria,38,1813,3,5850,27,20,35
+prod_24010,Pro Lamp,moveis_decoracao,38,723,11,1100,30,31,30
+prod_24140,Portable Pen Set,papelaria,48,533,1,1100,36,29,33
+prod_24196,Portable Cutting Board,utilidades_domesticas,56,616,1,250,35,10,15
+prod_24215,Essential Brush Set,beleza_saude,42,500,1,4050,17,11,13
+prod_24255,Deluxe Fan,climatizacao,52,284,1,250,16,8,16
+prod_24355,Everyday Backpack,esporte_lazer,60,1569,3,1900,105,15,15
+prod_24421,Compact Bed Sheet,cama_mesa_banho,54,508,1,850,45,15,30
+prod_24732,Sport Blender,eletrodomesticos,60,403,1,2500,32,37,22
+prod_24890,Elegant Pillow,cama_mesa_banho,56,329,2,500,30,10,30
+prod_24926,Pro Organizer Case,beleza_saude,51,781,2,150,35,2,26
+prod_24966,Premium Shelf,moveis_decoracao,60,430,1,300,40,10,30
+prod_25213,Pro Blanket,cama_mesa_banho,30,169,1,550,40,5,30
+prod_25236,Classic Bundle,alimentos_bebidas,56,757,4,10500,35,30,27
+prod_25309,Premium Garden Tool Set,ferramentas_jardim,58,1893,1,5950,20,20,20
+prod_25356,Everyday Organizer Case,beleza_saude,59,1782,1,125,25,14,18
+prod_25577,Compact Desk Toy,cool_stuff,54,1012,1,1200,42,25,15
+prod_25631,Premium Backpack,esporte_lazer,18,370,1,700,26,14,24
+prod_25634,Modern Phone Mount,automotivo,60,1892,2,850,20,9,14
+prod_25655,Compact Chair,moveis_decoracao,38,722,10,5000,30,31,30
+prod_25682,Pro Storage Bin,utilidades_domesticas,59,920,4,200,22,7,15
+prod_25744,Pro Chair,moveis_decoracao,46,490,2,1350,30,20,20
+prod_25749,Elegant Brush Set,beleza_saude,56,587,2,275,18,11,13
+prod_25956,Modern Screen Protector,telefonia,48,461,5,150,19,4,11
+prod_26141,Deluxe Piece,moveis_sala,60,1146,2,3200,30,11,30
+prod_26331,Sport Accessory,construcao_ferramentas_jardim,55,2039,6,215,21,7,15
+prod_26541,Rustic Bed Sheet,cama_mesa_banho,54,105,1,550,20,10,15
+prod_26594,Essential Towel Set,cama_mesa_banho,60,352,2,1300,30,10,30
+prod_26641,Elegant Resistance Band,esporte_lazer,52,1197,1,2500,20,11,11
+prod_26661,Modern Book Set,livros_interesse_geral,48,647,1,1450,16,25,11
+prod_26773,Deluxe Blanket,cama_mesa_banho,38,168,2,350,25,9,19
+prod_26881,Sport Seat Cover,automotivo,21,2566,1,20100,61,61,37
+prod_27040,Premium USB Hub,informatica_acessorios,59,1893,1,6550,20,20,20
+prod_27096,Elegant Brush Set,beleza_saude,59,895,1,50,20,15,15
+prod_27105,Compact Food Bowl,pet_shop,63,1440,3,4900,40,20,50
+prod_27129,Everyday Gift Box,relogios_presentes,46,501,4,363,18,13,13
+prod_27178,Classic Frame,moveis_decoracao,54,241,4,1050,32,12,32
+prod_27324,Rustic Plush Toy,brinquedos,51,122,4,450,20,31,30
+prod_27374,Sport Keychain,relogios_presentes,43,632,2,532,19,13,15
+prod_27509,Deluxe Frame,moveis_decoracao,59,455,1,7850,52,18,35
+prod_27626,Compact Lamp,moveis_decoracao,40,452,1,7600,85,10,23
+prod_27666,Rustic Shelf,moveis_decoracao,20,283,4,100,16,3,16
+prod_27804,Elegant USB Hub,informatica_acessorios,53,814,4,800,17,12,12
+prod_27811,Pro Novelty Item,cool_stuff,52,862,1,102,16,12,14
+prod_27999,Deluxe Baby Blanket,bebes,61,915,2,12600,25,47,64
+prod_28098,Portable Sticky Notes,papelaria,39,262,1,1700,20,55,35
+prod_28177,Elegant Charger Cable,telefonia,57,680,2,250,17,7,13
+prod_28328,Deluxe USB Hub,informatica_acessorios,32,321,1,207,17,12,13
+prod_28329,Rustic Pen Set,papelaria,53,388,2,450,38,33,26
+prod_28493,Portable Adapter,eletronicos,44,431,1,250,25,7,14
+prod_28810,Sport Charger,eletronicos,23,411,2,2100,28,18,18
+prod_28881,Compact Storage Bin,utilidades_domesticas,51,184,1,250,30,20,20
+prod_29052,Everyday Water Bottle,esporte_lazer,54,227,3,1800,26,26,26
+prod_29073,Classic Piece,alimentos_bebidas,53,314,1,600,24,8,23
+prod_29088,Essential Chew Toy,pet_shop,56,724,2,7050,50,21,21
+prod_29194,Compact Storage Bin,utilidades_domesticas,54,208,2,4700,35,16,25
+prod_29210,Elegant USB Hub,informatica_acessorios,45,1868,1,167,16,16,11
+prod_29245,Premium Blanket,cama_mesa_banho,49,1003,1,1550,40,9,32
+prod_29372,Modern Backpack,esporte_lazer,38,1080,6,1025,40,17,36
+prod_29498,Modern Power Bank,telefonia,50,554,1,200,18,3,11
+prod_29529,Rustic Charger,eletronicos,54,126,1,200,22,12,16
+prod_29596,Portable Mixer,eletrodomesticos,48,543,2,1200,35,20,30
+prod_29619,Everyday Towel Set,cama_mesa_banho,60,268,1,2700,41,8,36
+prod_29654,Deluxe Bed Sheet,cama_mesa_banho,54,472,1,1500,46,9,37
+prod_29783,Pro Fragrance Set,perfumaria,58,827,1,460,20,14,20
+prod_29870,Modern Diffuser,beleza_saude,47,1811,5,1600,22,8,16
+prod_30094,Elegant Lamp,moveis_decoracao,42,1481,3,1800,80,10,15
+prod_30314,Classic Shelf,moveis_decoracao,51,831,1,1400,20,30,20
+prod_30357,Compact Handbag,fashion_bolsas_e_acessorios,55,1399,1,200,16,2,11
+prod_30364,Sport Accessory,casa_construcao,24,1113,1,383,17,14,16
+prod_30403,Compact Towel Set,cama_mesa_banho,38,735,5,800,20,20,20
+prod_30469,Rustic Water Bottle,esporte_lazer,47,920,1,902,19,21,16
+prod_30682,Compact Mirror,beleza_saude,53,84,1,250,23,7,15
+prod_30716,Portable Backpack,esporte_lazer,55,308,2,450,35,7,25
+prod_30749,Essential Resistance Band,esporte_lazer,60,830,7,250,16,10,11
+prod_31167,Sport Laptop Stand,informatica_acessorios,53,332,1,1075,26,22,22
+prod_31180,Essential Power Bank,telefonia,51,380,1,125,19,5,11
+prod_31285,Everyday Pillow,cama_mesa_banho,53,236,2,1975,41,13,31
+prod_31438,Modern Puzzle,brinquedos,63,361,3,1800,38,12,35
+prod_31536,Deluxe Phone Mount,automotivo,52,603,1,7625,61,14,61
+prod_31765,Compact Gift Box,relogios_presentes,49,174,2,350,16,10,11
+prod_31782,Elegant Pillow,cama_mesa_banho,37,212,2,450,25,9,19
+prod_31807,Sport Keyboard,informatica_acessorios,34,1078,2,250,41,2,29
+prod_31953,Rustic Belt,fashion_bolsas_e_acessorios,36,1356,4,200,16,6,11
+prod_32073,Premium Tool Set,construcao_ferramentas_construcao,42,1571,1,450,38,12,14
+prod_32189,Essential Yoga Mat,esporte_lazer,60,475,4,800,50,15,25
+prod_32407,Premium Fragrance Set,perfumaria,27,311,1,560,19,13,17
+prod_32460,Sport Body Spray,perfumaria,47,608,1,500,20,10,16
+prod_32494,Portable Car Mat,automotivo,22,721,1,679,20,17,16
+prod_32529,Everyday Bib,bebes,41,199,1,100,16,5,15
+prod_32532,Sport Blanket,cama_mesa_banho,53,231,1,1625,41,30,33
+prod_32685,Pro Set,instrumentos_musicais,64,569,5,850,26,4,22
+prod_32863,Classic Towel Set,cama_mesa_banho,44,510,2,1000,40,10,30
+prod_32896,Deluxe Diffuser,beleza_saude,35,752,1,100,18,18,18

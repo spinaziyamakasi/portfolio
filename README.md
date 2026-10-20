@@ -1,6 +1,6 @@
-# Databasement — Student Guide
+# Database Development Portfolio — Student Guide
 
-Practice. Break things. Learn.
+Practice. Make mistakes. Learn.
 
 This is your semester-long portfolio project. You'll get a working dashboard
 with empty widgets, and every week you write a bit more SQL to bring another
@@ -8,8 +8,7 @@ one to life. By the end of the semester the whole dashboard works — and
 every query in it is yours.
 
 **The rule: you only ever edit files inside `sql/`**. 
-Everything else — the dashboard, the backend, the database
-setup — is provided and already works. As long as you only work in the `sql/` directory, you won't break anything.
+Everything else — the dashboard, the backend, the database setup — is provided and already works. As long as you only work in the `sql/` directory, you won't break anything.
 
 ---
 
@@ -43,17 +42,16 @@ fixable thing.
    git clone https://github.com/your-org/databasement-portfolio-yourusername.git
    cd databasement-portfolio-yourusername
    ```
-
----
+3. Add the **starter repo as a second remote**, called `upstream`. Your instructor may push fixes over the semester -- a typo in a widget's instructions, a bug in the grading harness, that kind of thing, not new content -- and this is how you pull those in without disturbing your own work:
+   ```
+   git remote add upstream <the starter repo URL your instructor gives you>
+  ```
 
 ## 3. First-time setup
 
-1. Copy `.env.example` to a new file named `.env`.
-If port 58080 (or 58432, or 58000) is already used by something else on your machine: change
-whichever port number conflicts. No other files need to change.
-
-2. Make sure **Docker Desktop is open and running** (not just installed —
+1. Make sure **Docker Desktop is open and running** (not just installed —
    check for the running indicator).
+2. Copy `.env.example` to a new file named `.env`. If port 58080 (or 58432, or 58000) is already used by something else on your machine: change whichever port number conflicts. No other files need to change.
 3. In a terminal, from inside the repo folder:
    ```
    docker compose up -d
@@ -61,12 +59,14 @@ whichever port number conflicts. No other files need to change.
    (Mac/Linux users can also just run `make up`.) The first run takes a
    minute or two — it's downloading and building everything. You'll only
    wait like this once.
-4. Open **http://localhost:58080** in your browser. You should see the
-   Databasement dashboard, with most widgets showing "🔧 not wired up yet."
-   That's correct — that's your starting point.
+3. Open **http://localhost:58080** in your browser. You should see the Database Development Portfiolio Dashboard, with most widgets showing "🔧 not wired up yet."
+   That's correct; that's your starting point.
+
+**If port 58080 (or 58432, or 58000) is already used by something else on
+your machine**: change whichever port number conflicts in your `.env` file. No other files need to change.
 
 **Stuck?** `docker compose logs backend` (or `db`, or `frontend`) shows you
-what that piece is actually doing — paste the output when asking for help,
+what that piece is actually doing. Copy and paste the output when asking for help,
 it's much more useful than "it's not working."
 
 ---
@@ -185,7 +185,7 @@ A few habits worth having:
   per widget (or even per meaningful attempt) is a much better record of
   your actual work than a single "finished everything" commit the night
   it's due.
-- **Push regularly**, not just once. Pushing keeps your work stored in GitHub so you never risk losing it in a crash. But it also allows the lecturers to keep an eye on student progress. No pushing looks a lot like no working.
+- **Push regularly**, not just once. Pushing keeps your work stored in GitHub so you never risk losing it in a crash. But it also allows the lecturers to keep an eye on student progress. Not pushing looks a lot like not working.
 - **Commit messages should say what you did**, in a few words — future you,
   re-reading this in week 9, will thank present you.
 - It's fine to commit something that doesn't pass yet. A commit isn't a
@@ -195,6 +195,11 @@ A few habits worth having:
 
 ## 7. If you get properly stuck
 
+- **Every widget says "relation does not exist" (or the dashboard shows
+  nothing)?** The database did not finish loading on first start. Run
+  `docker compose down -v` and then `docker compose up -d`. The `-v` is
+  essential: it deletes the half-built database so setup runs again. If it
+  happens again, run `docker compose logs db` and send the first 30 lines.
 - `make reset` (or `docker compose down -v && docker compose up -d`) wipes
   your local database back to its starting seed data — your `sql/` files
   are never touched by this, only the database gets reset. Useful if you've
