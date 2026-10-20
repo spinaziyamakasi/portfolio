@@ -24,5 +24,5 @@ WHERE NOT EXISTS (
 GROUP BY
     c.customer_id,
     c.customer_name
-ORDER BY orders_without_review DESC
+ORDER BY orders_without_review DESC, c.customer_id ASC
 FETCH FIRST 20 ROWS ONLY;

@@ -59,7 +59,7 @@ INSERT INTO order_items (
 SELECT
     'order_demo_001',
     item_number,
-    (SELECT product_id FROM products ORDER BY product_id LIMIT 1),
+    (SELECT product_id FROM products ORDER BY product_id LIMIT 1 OFFSET item_number - 1),
     (SELECT seller_id FROM sellers ORDER BY seller_id LIMIT 1),
     NOW() + INTERVAL '7 days',
     100.00,

@@ -80,5 +80,5 @@ JOIN geo_avg gc
     ON c.customer_zip_code_prefix = gc.geolocation_zip_code_prefix
 JOIN geo_avg gs
     ON s.seller_zip_code_prefix = gs.geolocation_zip_code_prefix
-ORDER BY sdistance_km DESC
+ORDER BY distance_km DESC
 FETCH FIRST 10 ROWS ONLY;
